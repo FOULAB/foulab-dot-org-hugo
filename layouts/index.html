@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range first 4 (where .Data.Pages.ByDate.Reverse "Section" "news") }}
+{{ range first 4 (where .Data.Pages.ByLastmod.Reverse "Section" "news") }}
 {{ partial "article.html" . }}
 {{ end }}
 

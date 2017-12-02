@@ -2,7 +2,7 @@
 
 {{ $pagination := .Paginate (where .Data.Pages "Type" "news") }}
 
-{{ range $pagination.Pages.ByDate.Reverse -}}
+{{ range $pagination.Pages.ByLastmod.Reverse -}}
 {{ partial "article.html" . }}
 {{ end }}
 
