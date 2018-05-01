@@ -1,0 +1,284 @@
+/* foulab.org - default style */
+
+/* Header of the page */
+.header {
+    position: relative;
+    width: 880px;
+    height: 168px;
+    float: left;
+    background-color: #000000;
+    background-image: url(../../img/header.png);
+    border: solid #22180b;
+    border-width: 0px 0px 0px 0px;
+    text-align: right;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+#gl_canvas {
+    width: 895px;
+    height: 168px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#gl_canvas_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -5;
+}
+
+/* Links below the header */
+.tinybar {
+    border-width: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 0px;
+    width: 891px;
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.tinybar span a:active, span a:link, span a:visited, span a:active, span a:link, span a:visited {
+    color: white;
+    font-weight: normal;
+    font-size: 8pt;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0px auto !important;
+    width: 895px;
+    box-shadow: 0px 0px 100px 25px rgba(0, 0, 0, .80);
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Menu on the side of the page */
+.nav {
+    width: 150px;
+    float: left;
+    clear: right;
+    padding: 10px;
+    border: solid #22180b;
+    border-width: 0 0 0 0;
+    font-size: 10pt;
+    text-align: left;
+    min-height: 500px;
+}
+
+/* Style for the menu list */
+.nav ul li {
+    color: white;
+    font-size: small;
+}
+
+/* Menu title color */
+.nav h4 {
+    color: white;
+}
+
+.nav a:active, .nav a:link, .nav a:visited, .header a:active, .header a:link, .header a:visited
+{
+    color: white;
+    font-weight: normal;
+    font-size: 8pt;
+    text-decoration: none;
+}
+
+.nav a:hover, .header a:hover
+{
+    text-decoration: underline;
+}
+
+/* Other Elements */
+.nav hr {
+    height: 0px;
+    padding: 0px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: solid #4a4a4a;
+    border-width: 1px 0 0 0;
+}
+
+#status {
+    height: 50px;
+    width: 150px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.contentwrapper {
+    height: auto;
+    background-color: #757575;
+    border: solid #22180b;
+    border-width: 0 1px 0 1px;    
+}
+
+/* Main area of the page */
+.content {
+    background-color: #ffffff;
+    color: #000000;
+    width: 702px;
+    float: left;
+    clear: left;
+    padding: 10px;
+    border: solid #22180b;
+    border-width: 0 1px 0 0;
+    font-size: 10pt;
+    min-height: 500px;
+}
+
+.content-headline {
+    width: 100%;
+    border-bottom: 1px black solid;
+    font-variant: small-caps;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+/* Links inside the main area */
+.content a {color: #960000;}
+.content a:hover {color: #ff0000;}
+
+/* Bottom of the page */
+.footer {
+    height: 49px;
+    width: 893px;
+    background-color: #333333;
+    border: solid #22180b;
+    border-width: 1px 1px 1px 1px;
+    margin: 0px;
+    color: #ffffff;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 7pt;
+    clear: both;
+    margin-bottom: 35px;
+}
+
+.footer a:link, .footer a:active, .footer a:visited {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Module: edit */
+div#wikiedit {
+    width: 635px;
+    text-align: left;
+    margin: auto;
+}
+
+div#wikiedit span.title {
+  font-size: x-large;
+}
+
+div#wikiedit input.title {
+  width: 630px;
+}
+
+div#wikiedit textarea.text {
+  width: 630px;
+  height: 260px;
+}
+/* End Module: edit */
+
+
+/* Module: wiki */
+
+/* Adds a default style for tables in the wiki */
+table.wikitable {
+  border: 1px #b0b0b0 solid;
+}
+
+table.wikitable tr {
+  text-align: center;
+}
+
+table.wikitable tr td,
+table.wikitable tr th {
+  border: 1px #d0d0d0 solid;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Adds an icon to the end of any external link in the wiki */
+a.wikilink_external {
+  background: url(../images/external.png) no-repeat 100% 50%;
+  padding-right: 13px;
+}
+/* End Module: wiki */
+
+/* Module: admin */
+span.username {
+    font-size: x-large;
+    font-weight: bold;
+    color: #5c5f2b;
+}
+span.useroptions a {
+    color: #5c5f2b;
+    font-size: normal;
+}
+
+span.acl,
+span.perms {
+    color: #7c7e5a;
+}
+
+span.acl form,
+span.perms form {
+    margin-left: 20px;
+}
+
+span.adduser {
+    color: #7c7e5a;
+}
+
+input.address { width: 150px; }
+input.permission { width: 150px; }
+span.mask { font-size: smaller; }
+
+.smallinput {
+    border: 1px #5c5f2b solid;
+    background-color: #f0f0f0;
+    color: #7c7e5a;
+    width: 200px;
+}
+
+.mediuminput {
+    border: 1px #5c5f2b solid;
+    background-color: #f0f0f0;
+    color: #7c7e5a;
+    width: 400px;
+}
+
+span.aclentry { padding-right: 10px; }
+span.permission { padding-right: 10px; }
+
+/* End Module: admin */
+
+
+div.warningbox {
+    padding: 10px;
+    border: 1px #b80000 solid;
+    background-color: #dcb7b7;
+    font-weight: bold;
+}

@@ -1,0 +1,7 @@
+{{ define "main" }}
+
+{{ range first 4 (where .Data.Pages "Section" "news") }}
+{{ partial "article.html" . }}
+{{ end }}
+
+{{ end }}

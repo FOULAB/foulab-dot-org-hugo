@@ -1,0 +1,3 @@
+<CENTER>
+  <video src="{{ .Site.BaseURL }}/media/video/{{ .Page.File.Dir }}{{ .Page.File.BaseFileName }}/{{ .Get "src" }}" {{ with .Get "height" }}height="{{ . }}"{{ end }} {{ with .Get "width" }}width="{{ . }}"{{ end }} preload autoplay loop></video>
+</CENTER>
