@@ -1,0 +1,13 @@
+<h2>
+  <a href="{{ .Permalink }}">
+    {{ .GitInfo.Subject }}
+  </a>
+</h2>
+
+<h3>By {{ .GitInfo.AuthorName }}, on {{ .GitInfo.AuthorDate }}</h3>
+
+<hr /><br />
+
+{{ .Content }}
+
+<br style="clear: both;" />

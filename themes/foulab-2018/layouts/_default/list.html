@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+{{ $pagination := .Paginate (where .Data.Pages "Type" "news") }}
+
+{{ range $pagination.Pages }}
+{{ partial "article.html" . }}
+{{ end }}
+
+{{ partial "pagination.html" . }}
+
+{{ end }}

@@ -1,0 +1,9 @@
+baseURL = "https://foulab.org"
+languageCode = "en-us"
+title = "Welcome to Foulab! - foulab.org"
+theme = "foulab-2018"
+
+enableGitInfo = true
+
+paginate = 7
+paginatePath = "p"
