@@ -1,32 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>Welcome to Foulab! - foulab.org</title>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/default/default.css" />
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/default/app.css" />
-    
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/favicon.ico" type="image/vnd.microsoft.icon" />
-    
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/js/sparkles/twgl-full.min.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/js/sparkles/static.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/js/sparkles/clouds.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/js/sparkles/init_webgl.js" defer></script>
-  </head>
-
-  <body>
-    <canvas id="gl_canvas_bg"></canvas>
-    
-    <div class="wrapper">
-      
       <div class="header">
 	<canvas id="gl_canvas"></canvas>
 	
 	<div class="tinybar">
 	  
 	  <span>
+	    <a href="https://github.com/FOULAB" title="Foulab GitHub">
+	      <img id="icons" src="{{ .Site.BaseURL }}/img/git.png"/>
+	    </a>
 	    <a href="https://webchat.freenode.net/?channels=#%23foulab" title="IRC Webchat">
 	      <img id="icons" src="{{ .Site.BaseURL }}/img/irc.png"/>
 	    </a>
@@ -47,4 +27,4 @@
 	</div>
 	
       </div>
-
+      
