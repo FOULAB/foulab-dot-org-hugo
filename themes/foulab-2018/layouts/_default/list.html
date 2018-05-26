@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ $pagination := .Paginate (where .Data.Pages "Type" "news") }}
+{{ $pagination := .Paginate (where .Data.Pages.Reverse "Type" "news") }}
 
 {{ range $pagination.Pages.ByLastmod.Reverse -}}
 {{ partial "article.html" . }}
