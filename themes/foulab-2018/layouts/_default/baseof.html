@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>{{ block "title" . }}Welcome to Foulab! - foulab.org{{ end }}</title>
+	  <title>{{ block "title" . }}{{ index .Params "title" | default "Welcome to Foulab! - foulab.org" }}{{ end }}</title>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   
@@ -31,7 +31,7 @@
 	
 	<div class="content">
 	  <div class="content-headline">
-	    {{ block "headline" .}}<b>foulab.org</b> / {{ index .Params "headline" | default "Welcome to Foulab!" }}{{ end }}
+		  {{ block "headline" .}}<b>{{ index .Params "topic" | default "foulab.org" }}</b> / {{ index .Params "headline" | default "Welcome to Foulab!" }}{{ end }}
 	  </div>
 	  
 	  {{ block "main" . }}
