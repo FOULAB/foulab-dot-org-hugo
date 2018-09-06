@@ -31,7 +31,7 @@ h3 {
 h4 {
 	color: #000000;
 	font-weight: bold;
-	font-size: 8pt;
+	font-size: 16px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -49,7 +49,7 @@ li {
 	padding: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
-	margin-top: 3px;
+	margin-top: 10px;
 	margin-bottom: 0px;
 }
 
@@ -57,8 +57,8 @@ li {
 ul {
 	padding: 0px;
 	margin-right: 0px;
-	margin-left: 10px;
-	margin-top: 3px;
+	margin-left: 0px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	list-style: square inside url("../../img/bullet.gif")
 }
@@ -86,7 +86,7 @@ a {
 /* Underline hovered links */
 a:hover {
 	color: black;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /* Default style for paragraph */
@@ -99,7 +99,9 @@ p {
 }
 
 /* Remove border from images inside a link */
-a img { border: 0px; }
+a img {
+    border: 0px;
+}
 
 #icons {
     height: 25px;
