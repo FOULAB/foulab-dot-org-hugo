@@ -2,7 +2,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     if( addGLCanvas() ) {
 	WebGLStatic();
-	WebGLClouds();
+	if( screen.width > 800 )
+	{
+	    WebGLClouds();
+	}
     }
 });
 
