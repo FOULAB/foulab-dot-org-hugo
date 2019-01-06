@@ -4,6 +4,8 @@ topic = "strawdog"
 headline = "Circular Calendar"
 +++
 
+**UPDATE:** Calendars for 2019 and 2020 have been generated for your enjoyment!  Links are at the bottom of the page.
+
 **UPDATE:** Calendars for 2015 and 2016 have been generated for your enjoyment!  Links are at the bottom of the page.
 
 Calendars... we use em every day.  But I find that the square, month by month representation 
@@ -68,5 +70,13 @@ Additional calendars, with the computer scientist birthdays theme.
 * 2016, single page {{< media-link href="calendar_2016.pdf" text="calendar_2016.pdf" >}}
 * 2016, two pages {{< media-link href="calendar_2016_2page.pdf" text="calendar_2016_2page.pdf" >}}
 * 2016, four pages {{< media-link href="calendar_2016_4page.pdf" text="calendar_2016_4page.pdf" >}}
-* 2016, six pages {{< media-link href="calendar_2016_6page.pdf" text="calendar_2016_6page.pdf" >}}.
+* 2016, six pages {{< media-link href="calendar_2016_6page.pdf" text="calendar_2016_6page.pdf" >}}
+* 2019, single page {{< media-link href="calendar_2019.pdf" text="calendar_2019.pdf" >}}
+* 2019, two pages {{< media-link href="calendar_2019_2page.pdf" text="calendar_2019_2page.pdf" >}}
+* 2019, four pages {{< media-link href="calendar_2019_4page.pdf" text="calendar_2019_4page.pdf" >}}
+* 2019, six pages {{< media-link href="calendar_2019_6page.pdf" text="calendar_2019_6page.pdf" >}}
+* 2020, single page {{< media-link href="calendar_2020.pdf" text="calendar_2020.pdf" >}}
+* 2020, two pages {{< media-link href="calendar_2020_2page.pdf" text="calendar_2020_2page.pdf" >}}
+* 2020, four pages {{< media-link href="calendar_2020_4page.pdf" text="calendar_2020_4page.pdf" >}}
+* 2020, six pages {{< media-link href="calendar_2020_6page.pdf" text="calendar_2020_6page.pdf" >}}.
 
