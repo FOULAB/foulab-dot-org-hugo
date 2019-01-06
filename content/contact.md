@@ -11,4 +11,4 @@ headline = "Contact Foulab"
 <li><b>We have a doorbell at the main door!</b></li>
 
 </ul>
-<br />Foulab is also on <a href="http://twitter.com/foulab" target="_self">twitter</a>, and <a href="http://www.facebook.com/group.php?gid=144161830009" target="_self">facebook</a>.
+<br />Foulab is also on <a href="http://twitter.com/foulab" target="_self">twitter</a>, and <a href="https://www.facebook.com/groups/144161830009/" target="_self">facebook</a>.
