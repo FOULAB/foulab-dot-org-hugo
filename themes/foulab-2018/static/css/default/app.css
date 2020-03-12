@@ -54,7 +54,7 @@
     z-index: 2;
 }
 
-.tinybar span a:active, span a:link, span a:visited
+.tinybar a:active, .tinybar a:link, .tinybar a:visited
 {
     color: white;
     font-weight: normal;
@@ -62,6 +62,7 @@
     text-decoration: none;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    background-color: transparent;
 }
 
 .wrapper {
@@ -78,39 +79,40 @@
 /* Menu on the side of the page */
 .nav {
     width: 150px;
-    float: left;
+    float: right;
     clear: right;
     padding: 10px;
     border: solid #22180b;
     border-width: 0 0 0 0;
     font-size: 10px;
-    text-align: left;
+    text-align: right;
     min-height: 500px;
 }
 
 /* Style for the menu list */
 .nav ul li {
     color: white;
+    text-align: left;
     font-size: small;
 }
 
+.nav li:hover {
+    background: #bbbb;
+}
 /* Menu title color */
 .nav h4 {
     color: white;
 }
 
-.nav a:active, .nav a:link, .nav a:visited, .header a:active, .header a:link, .header a:visited
+.nav a:active, .nav a:link, .nav a:visited
 {
+    display: block;
     color: white;
     font-weight: normal;
     font-size: 12pt;
     text-decoration: none;
 }
 
-.nav a:hover, .header a:hover
-{
-    text-decoration: underline;
-}
 
 /* Other Elements */
 .nav hr {

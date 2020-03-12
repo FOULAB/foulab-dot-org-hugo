@@ -48,7 +48,7 @@ h5 {
 li {
 	padding: 0px;
 	margin-right: 0px;
-	margin-left: 0px;
+	margin-left: 25px;
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
@@ -60,7 +60,7 @@ ul {
 	margin-left: 0px;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	list-style: square inside url("../../img/bullet.gif")
+	list-style: square outside url("../../img/bullet.gif")
 }
 
 /* Remove borders, margins and all */
