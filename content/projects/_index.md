@@ -27,3 +27,5 @@ Members projects
       *  [ALD](maxd/ald)
       *  [FRO](maxd/fro)
       *  [audV2](maxd/audv2)
+*    [eigma](http://vv.carleton.ca/~cat/)
+      *  [Remote Controlled Fan Timer](eigma/fan) (April 2020)
