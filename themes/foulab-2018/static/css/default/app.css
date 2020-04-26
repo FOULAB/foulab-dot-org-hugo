@@ -179,6 +179,15 @@
     margin-bottom: 20px;
 }
 
+/* Headings inside the main area */
+.content ul {
+    margin-top: 0;
+}
+.content h3 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
 /* Links inside the main area */
 .content a {color: #960000;}
 .content a:hover {color: #ff0000;}

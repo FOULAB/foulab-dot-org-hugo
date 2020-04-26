@@ -1,0 +1,6 @@
+{{ $img := .Page.Resources.GetMatch (.Get "src") }}
+{{ $options := add (.Get "options") " png" }}
+{{ $resized := $img.Fit $options }}
+<a href="{{ $img.RelPermalink }}">
+  <img src="{{ $resized.RelPermalink }}" {{ with .Get "alt" }} alt="{{ . }}"{{ end }} width="{{ $resized.Width }}" height="{{ $resized.Height }}" />
+</a>
