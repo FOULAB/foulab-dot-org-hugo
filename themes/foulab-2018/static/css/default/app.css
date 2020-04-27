@@ -188,6 +188,22 @@
     font-weight: bold;
 }
 
+.content ntitle {
+    color: #960000;
+    font-weight: bold;
+    font-size: 14pt;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content ntrace {
+    font-size: 8pt;
+    font-family: monospace;
+    color: #777777
+}
+
+
 /* Links inside the main area */
 .content a {color: #960000;}
 .content a:hover {color: #ff0000;}
