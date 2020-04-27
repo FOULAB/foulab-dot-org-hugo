@@ -79,6 +79,13 @@ var WebGLStatic = function() {
 
     // END SHADERS
 
+    var frameCount = 0;
+    var currentFps = 60;
+    var sinceStart = 0;
+
+    const tolerance = 0.01;
+    var fps, fpsInterval, startTime, now, then, elapsed;
+    
     var gl = twgl.getWebGLContext(document.getElementById("gl_canvas"));
 	
     var program = twgl.createProgramFromSources(gl, [staticVS, staticFS]);
@@ -116,24 +123,44 @@ var WebGLStatic = function() {
     var bufferInfo = twgl.createBufferInfoFromArrays(gl, attributes);
     var randSeed = (11 * Math.round(Math.random() * 3248575) + 17) % 25;
     
+    gl.useProgram(programInfo.program);
+    twgl.setBuffersAndAttributes(gl, programInfo, bufferInfo);
+
     var render = function(timeBase) {
-        twgl.resizeCanvasToDisplaySize(gl.canvas);
-        gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
-	gl.clearColor(0, 0, 0, 0);
-        gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+	setTimeout(function (){
+	    requestAnimationFrame(render);
+	}, fpsInterval - 1000/currentFps);
 	
-        var uniforms = {
-	    u_timeBase: timeBase * 0.001,
-	    u_logoTexture: tex_logo,
-	    u_seed: randSeed,
-        };
+	now = timeBase;
+	elapsed = now - then;
+	
+	if (elapsed >= fpsInterval - tolerance) {
+
+	    then = now - (elapsed % fpsInterval);
+
+            twgl.resizeCanvasToDisplaySize(gl.canvas);
+            gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
+	    gl.clearColor(0, 0, 0, 0);
+            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 	    
-        gl.useProgram(programInfo.program);
-        twgl.setBuffersAndAttributes(gl, programInfo, bufferInfo);
-        twgl.setUniforms(programInfo, uniforms);
-        twgl.drawBufferInfo(gl, gl.TRIANGLES, bufferInfo);
-	
-        requestAnimationFrame(render);
+            var uniforms = {
+		u_timeBase: timeBase * 0.001,
+		u_logoTexture: tex_logo,
+		u_seed: randSeed,
+            };
+	    
+            twgl.setUniforms(programInfo, uniforms);
+            twgl.drawBufferInfo(gl, gl.TRIANGLES, bufferInfo);
+	    sinceStart = now - startTime;
+	    currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100)/ 100;
+	}
+    }
+    
+    var startAnimation = function (fps) {
+	fpsInterval = 1000 / fps;
+	then = window.performance.now();
+	startTime = then;
+	render();
     }
 
     header_img.onload = function () {
@@ -141,6 +168,6 @@ var WebGLStatic = function() {
 	    src: header_img, mag: gl.LINEAR,
 	});
 	document.getElementById("gl_canvas").style.visibility = "visible";
-	requestAnimationFrame(render);
+	startAnimation(16);
     }
 };
