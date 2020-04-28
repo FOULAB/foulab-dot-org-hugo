@@ -21,18 +21,16 @@ var WebGLClouds = function() {
     precision highp float;
     
     uniform float u_timeBase;
-    uniform float u_seed;
-    uniform vec2  u_resolution;
     varying vec2  v_texcoord;
     
     const float pi = 3.14159;
     const float tau = 6.28318;
 
     vec2 random2( vec2 p ) {
-	return fract(sin(vec2(dot(p,vec2(127.1,311.7)),dot(p,vec2(269.5,183.3))))*(43758.5453+u_seed));
+	return fract(sin(vec2(dot(p,vec2(127.1,311.7)),dot(p,vec2(269.5,183.3))))*(43758.5453+ <#SEED#> ));
     }
 
-    const float timeDiv = 30000.;
+    const float timeDiv = 50000.;
 
     float voronoi(vec2 uv)
     {
@@ -67,7 +65,7 @@ var WebGLClouds = function() {
 	vec2 fragCoord = v_texcoord;
 	
 	vec2 uv = fragCoord.xy;
-	vec2 u_Resolution = vec2(640.0, 480.0);
+	vec2 u_resolution = vec2(480.0, 360.0);
 
 	uv.x *= u_resolution.x / u_resolution.y;
 
@@ -83,15 +81,17 @@ var WebGLClouds = function() {
 
     }
     `;
-    
+    cloudsFS = cloudsFS.replace("<#SEED#>", (11 * Math.round(Math.random() * 3248575) + 17) % 25 + ".");
     // END SHADERS
     var frameCount = 0;
-    var currentFps = 60;
     var sinceStart = 0;
+    var currentFps = 60;
     
     const tolerance = 0.01;
-    var fps, fpsInterval, startTime, now, then, elapsed;
+    var fps, fpsInterval, startTime, now, then, delta;
     
+
+
     var gl_clouds = twgl.getWebGLContext(document.getElementById("gl_canvas_bg"));
 	
     var program_clouds = twgl.createProgramFromSources(gl_clouds, [cloudsVS, cloudsFS]);
@@ -121,36 +121,35 @@ var WebGLClouds = function() {
         a_texcoord: tex_quads_clouds,
     };
 
-    var bufferInfo_clouds = twgl.createBufferInfoFromArrays(gl_clouds, attributes_clouds);
-    var randSeedCld = (11 * Math.round(Math.random() * 3248575) + 17) % 25;
+
+    var eventWindowResize = function() {
+    	twgl.resizeCanvasToDisplaySize(gl_clouds.canvas);
+    	gl_clouds.viewport(0, 0, gl_clouds.canvas.width, gl_clouds.canvas.height);
+
+    }
+    window.addEventListener("resize", eventWindowResize);
     
+    var bufferInfo_clouds = twgl.createBufferInfoFromArrays(gl_clouds, attributes_clouds);
+    
+		   
     gl_clouds.useProgram(programInfo_clouds.program);
     twgl.setBuffersAndAttributes(gl_clouds, programInfo_clouds, bufferInfo_clouds);
-    
-    var sleep = async function(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-    }
-
+    gl_clouds.viewport(0, 0, gl_clouds.canvas.width, gl_clouds.canvas.height);
     var render_clouds = function(timeBase_clouds) {
 	setTimeout(function (){
 	    requestAnimationFrame(render_clouds);
 	}, fpsInterval - 1000/currentFps);
 	
 	now = timeBase_clouds;
-	elapsed = now - then;
+	delta = now - then;
 	
-	if (elapsed >= fpsInterval - tolerance) {
+	if (delta >= fpsInterval - tolerance) {
 
-	    then = now - (elapsed % fpsInterval);
+	    then = now - (delta % fpsInterval);
 
-	    twgl.resizeCanvasToDisplaySize(gl_clouds.canvas);
-	    gl_clouds.viewport(0, 0, gl_clouds.canvas.width, gl_clouds.canvas.height);
-            gl_clouds.clear(gl_clouds.COLOR_BUFFER_BIT | gl_clouds.DEPTH_BUFFER_BIT);
-	    
             var uniforms_clouds = {
 		u_timeBase: timeBase_clouds,
-		u_resolution: [ gl_clouds.canvas.width,  gl_clouds.canvas.height ],
-		u_seed: randSeedCld,
+		u_retio: gl_clouds.canvas.width/ gl_clouds.canvas.height,
             };
 	    
             twgl.setUniforms(programInfo_clouds, uniforms_clouds);
@@ -166,6 +165,8 @@ var WebGLClouds = function() {
 	startTime = then;
 	render_clouds();
     }
-
+    
+    twgl.resizeCanvasToDisplaySize(gl_clouds.canvas);
+    gl_clouds.viewport(0, 0, gl_clouds.canvas.width, gl_clouds.canvas.height);
     startAnimation(20);	
 };

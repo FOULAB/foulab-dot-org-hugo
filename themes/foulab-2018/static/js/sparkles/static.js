@@ -19,7 +19,6 @@ var WebGLStatic = function() {
     precision highp float;
 
     uniform float u_timeBase;
-    uniform float u_seed;
     varying vec2  v_texcoord;
 
     uniform sampler2D u_logoTexture;
@@ -32,7 +31,7 @@ var WebGLStatic = function() {
     }
 
     float hash( float n ) {
-	return fract(sin(n)*43758.5453123/u_seed);
+	return fract(sin(n)*43758.5453123/ <#SEED#> );
     }
 
     float n( in vec3 x ) {
@@ -76,7 +75,7 @@ var WebGLStatic = function() {
 	gl_FragColor = vec4(logo.x +col, logo.y+col, logo.z + col, 1.0 );
     }
     `;
-
+    staticFS = staticFS.replace("<#SEED#>", (11 * Math.round(Math.random() * 3248575) + 17) % 25 + ".");
     // END SHADERS
 
     var frameCount = 0;
@@ -84,15 +83,13 @@ var WebGLStatic = function() {
     var sinceStart = 0;
 
     const tolerance = 0.01;
-    var fps, fpsInterval, startTime, now, then, elapsed;
+    var fps, fpsInterval, startTime, now, then, delta;
     
     var gl = twgl.getWebGLContext(document.getElementById("gl_canvas"));
 	
     var program = twgl.createProgramFromSources(gl, [staticVS, staticFS]);
     var programInfo = twgl.createProgramInfoFromProgram(gl, program);
 
-    var tex_logo = 0.0;
-    
     var header_img = new Image();
     header_img.src = window.baseRoot + "/img/textures/header.png";
     
@@ -121,32 +118,24 @@ var WebGLStatic = function() {
     };
     
     var bufferInfo = twgl.createBufferInfoFromArrays(gl, attributes);
-    var randSeed = (11 * Math.round(Math.random() * 3248575) + 17) % 25;
     
     gl.useProgram(programInfo.program);
     twgl.setBuffersAndAttributes(gl, programInfo, bufferInfo);
-
+    
     var render = function(timeBase) {
 	setTimeout(function (){
 	    requestAnimationFrame(render);
 	}, fpsInterval - 1000/currentFps);
 	
 	now = timeBase;
-	elapsed = now - then;
+	delta = now - then;
 	
-	if (elapsed >= fpsInterval - tolerance) {
+	if (delta >= fpsInterval - tolerance) {
 
-	    then = now - (elapsed % fpsInterval);
-
-            twgl.resizeCanvasToDisplaySize(gl.canvas);
-            gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
-	    gl.clearColor(0, 0, 0, 0);
-            gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+	    then = now - (delta % fpsInterval);
 	    
             var uniforms = {
 		u_timeBase: timeBase * 0.001,
-		u_logoTexture: tex_logo,
-		u_seed: randSeed,
             };
 	    
             twgl.setUniforms(programInfo, uniforms);
@@ -164,9 +153,11 @@ var WebGLStatic = function() {
     }
 
     header_img.onload = function () {
-	tex_logo = twgl.createTexture(gl, {
+	var tex_logo = twgl.createTexture(gl, {
 	    src: header_img, mag: gl.LINEAR,
 	});
+	twgl.resizeCanvasToDisplaySize(gl.canvas);
+	gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
 	document.getElementById("gl_canvas").style.visibility = "visible";
 	startAnimation(16);
     }
