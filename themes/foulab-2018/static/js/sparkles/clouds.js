@@ -21,6 +21,7 @@ var WebGLClouds = function() {
     precision highp float;
     
     uniform float u_timeBase;
+    uniform float u_retio;
     varying vec2  v_texcoord;
     
     const float pi = 3.14159;
@@ -65,7 +66,7 @@ var WebGLClouds = function() {
 	vec2 fragCoord = v_texcoord;
 	
 	vec2 uv = fragCoord.xy;
-	vec2 u_resolution = vec2(480.0, 360.0);
+	vec2 u_resolution = vec2(480.0, 360.0/ u_retio);
 
 	uv.x *= u_resolution.x / u_resolution.y;
 
@@ -151,7 +152,7 @@ var WebGLClouds = function() {
 		u_timeBase: timeBase_clouds,
 		u_retio: gl_clouds.canvas.width/ gl_clouds.canvas.height,
             };
-	    
+	    console.log(gl_clouds.canvas.width/ gl_clouds.canvas.height);
             twgl.setUniforms(programInfo_clouds, uniforms_clouds);
             twgl.drawBufferInfo(gl_clouds, gl_clouds.TRIANGLES, bufferInfo_clouds);
 	    sinceStart = now - startTime;
