@@ -154,7 +154,7 @@ var WebGLClouds = function() {
             };
 	    console.log(gl_clouds.canvas.width/ gl_clouds.canvas.height);
             twgl.setUniforms(programInfo_clouds, uniforms_clouds);
-            twgl.drawBufferInfo(gl_clouds, gl_clouds.TRIANGLES, bufferInfo_clouds);
+            twgl.drawBufferInfo(gl_clouds, bufferInfo_clouds);
 	    sinceStart = now - startTime;
 	    currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100)/ 100;
 	}
