@@ -139,7 +139,7 @@ var WebGLStatic = function() {
             };
 	    
             twgl.setUniforms(programInfo, uniforms);
-            twgl.drawBufferInfo(gl, gl.TRIANGLES, bufferInfo);
+            twgl.drawBufferInfo(gl, bufferInfo);
 	    sinceStart = now - startTime;
 	    currentFps = Math.round(1000 / (sinceStart / ++frameCount) * 100)/ 100;
 	}
