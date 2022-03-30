@@ -152,7 +152,7 @@ var WebGLClouds = function() {
 		u_timeBase: timeBase_clouds,
 		u_retio: gl_clouds.canvas.width/ gl_clouds.canvas.height,
             };
-	    console.log(gl_clouds.canvas.width/ gl_clouds.canvas.height);
+
             twgl.setUniforms(programInfo_clouds, uniforms_clouds);
             twgl.drawBufferInfo(gl_clouds, bufferInfo_clouds);
 	    sinceStart = now - startTime;
