@@ -1,0 +1,24 @@
+{{define "headline" }}
+<b>foulab.org</b> /// <b>3Rr0|2</b> // <b>.type[ 502 ]</b> /~.*
+{{ end }}
+{{ define "main" }}
+<script language="JavaScript" type="text/javascript">
+/*<![CDATA[*/
+var TimerVal = 10;
+var TimerSPan = document.getElementById("CDTimer");
+function CountDown(){
+   setTimeout( "CountDown()", 1000 );
+   TimerSPan.innerHTML=TimerVal;
+   TimerVal=TimerVal-1;
+   if (TimerVal<0) { TimerVal=0;
+   location.reload(true); 
+   window.location.href = "https://foulab.org";
+   } //improvement by vivalibre, tq 
+}
+CountDown();
+/*]]>*/ </script> 
+<meta http-equiv="refresh" content="10" /> 
+<center>
+  <img src="{{ .Site.BaseURL }}/img/foubot.png">
+</center>
+{{ end }}
