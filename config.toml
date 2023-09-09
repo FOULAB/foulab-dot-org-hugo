@@ -5,5 +5,7 @@ theme = "foulab-2018"
 
 enableGitInfo = true
 
+disableKinds = ['taxonomy', 'term']
+
 paginate = 7
 paginatePath = "p"
