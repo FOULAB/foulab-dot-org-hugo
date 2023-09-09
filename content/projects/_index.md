@@ -10,10 +10,10 @@ Members projects
        *    [Laptop Screen 180degree Mod](einstein_/laptop-screen-180degree-mod)
        *    [Transforming a laptop into a tablet](einstein_/tablet-computer)
 *    fx
-       *     [Foubot](fx/foubot)
-       *     [A Teletype](fx/tweletype) sending and receiving Twitter messages.
+       *    [Foubot](fx/foubot)
+       *    [A Teletype](fx/tweletype) sending and receiving Twitter messages.
 *    LegionLabs and strawdog
-       *     [Golem: One bit to rule them all](legionlabs-and-strawdog/golem) [(blog posts)](http://strawprojects.blogspot.com/search/label/Golem)
+       *    [Golem: One bit to rule them all](legionlabs-and-strawdog/golem) [(blog posts)](http://strawprojects.blogspot.com/search/label/Golem)
 *    strawdog
        * [strawdog's project blog](http://strawprojects.blogspot.com/)
        * [Heater Control](strawdog/heater-control)
