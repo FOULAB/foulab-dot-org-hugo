@@ -9,3 +9,8 @@ disableKinds = ['taxonomy', 'term']
 
 paginate = 7
 paginatePath = "p"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
