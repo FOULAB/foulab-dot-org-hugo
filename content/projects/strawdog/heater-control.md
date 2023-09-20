@@ -19,7 +19,7 @@ I toyed briefly with the idea of just running the wire to the thermostat across 
 floor.  However, landlords and spouses, not to mention the fire marshal, frown on 
 running 240 V heater wires across the floor.<br/><br/>So i needed a way to control 
 the heater based on the average temperature of the room, and it had to be wireless.  
-The [X10 protocol](http://en.wikipedia.org/wiki/X10_(industry_standard) 
+The [X10 protocol](http://en.wikipedia.org/wiki/X10_\(industry_standard\))
 allows sending and recieving messages through the electrical power wiring.  An X10 
 modem also exists (the PSC05), which can be interfaced nicely with the Atmega chip 
 [(thanks to the work of Brohogan)](http://www.arduino.cc/playground/X10/ReceiveX10).  
@@ -66,7 +66,10 @@ built it on protoboard. The two indicator LEDs are not essential, but they can b
 convenient to have for debugging.
 
 {{< centered-image src="circuit.png" height="641" width="625" >}}
-<center>[The circuit, click to go to design on circuit lab](https://www.circuitlab.com/circuit/tcyqz7/heater-control/)
+<center>
+
+[The circuit, click to go to design on circuit lab](https://www.circuitlab.com/circuit/tcyqz7/heater-control/)
+
 </center>
 
 Integration with the modem / Assembly

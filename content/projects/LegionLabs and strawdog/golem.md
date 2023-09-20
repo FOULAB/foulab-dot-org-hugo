@@ -86,7 +86,9 @@ to edit a form of pseudo assembly, that, at least at some
 point, strawdog found somewhat marginally easier to understand than the bitwise statements.
 {{< centered-image src="golem-counting.png" alt="Golem Counting" >}}
 <center>
+
 [Implementation of counting algorithm on openprocessing.org](https://www.openprocessing.org/sketch/42797)
+
 </center>
 
 However, it is not immediately intuitive how the fact that this is a Turing-complete system 
@@ -98,13 +100,17 @@ Consider the machine known as the
 Here it is, presented in the Turing machine form we are more familiar with.
 {{< centered-image src="busybeaver.png" alt="Busy Beaver algorithm" >}}
 <center>
+
 [Implementation of Busy-Beaver classic Turing machine on openprocessing.org](https://www.openprocessing.org/sketch/42796)
+
 </center>
 
 Now heres what it looks like implemented in the one bit processor.
 {{< centered-image src="golem-busybeaver.png" width="626" alt="Busy Beaver algorithm in Golem" >}}
 <center>
+
 [Implementation of Busy-Beaver algorithm in one-bit processor  on openprocessing.org](https://www.openprocessing.org/sketch/42798)
+
 </center>
 
 Lets analyse whats going on here! This program can be broken into two parts: the Turing state 
