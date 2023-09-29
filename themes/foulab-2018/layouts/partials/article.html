@@ -1,10 +1,10 @@
 <ntitle>
   <a href="{{ .Permalink }}">
-    {{ .GitInfo.Subject }}
+    {{ default .GitInfo.Subject .Title }}
   </a>
 </ntitle>
 <br/>
-<ntrace>by [{{ .GitInfo.AuthorName }}] @ {{ .GitInfo.AuthorDate }}</ntrace>
+<ntrace>by [{{ default .GitInfo.AuthorName .Params.author_name }}] @ {{ default .GitInfo.AuthorDate .Date }}</ntrace>
 
 <hr /><br />
 
