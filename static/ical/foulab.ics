@@ -422,8 +422,8 @@ UID:597103e8-e2e3-47be-b4a4-64648e8d3879
 DTSTART:20231004T220000Z
 DTSTART;TZID="America/New_York":20231004T180000
 DTEND;TZID="America/New_York":20231004T200000
-SUMMARY:Enjoy a computer science paper together
-URL:https%3A%2F%2Ffoulab.org%2Fnews%2Fpaperswelove-bigtable-2023
+SUMMARY:Foulab x PapersWeLove present: BigTable
+URL:https://foulab.org/news/paperswelove-bigtable-2023/
 DESCRIPTION:FOULAB x PapersWeLove present: BigTable
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
