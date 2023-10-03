@@ -7,8 +7,9 @@ headline = "About Foulab"
 
 The goal of foulab is to provide its members an environment and resources that allow them to exchange knowledge, ideas and explore new technologies. To that end, the organization will arrange a space which allows its users to collaborate.
 
-**We are currently open every Tuesdays after 8pm until midnight for visitors.**
-**In addition we are similarly open, only for the express purpose of helping with projects, every Thursday night.**
+
+**We are currently open every Tuesdays and Thursdays after 6:30pm - 11pm for visitors.**
+**If you show up after 11pm, you might not see anyone.**
 
 ---
 
