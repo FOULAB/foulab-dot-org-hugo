@@ -7,7 +7,7 @@ Foulab is located at [Suite 33B, 999 du Collège, Montréal, Quebec, Canada, H4C
 
 
 **We are currently open every Tuesdays and Thursdays after 6:30pm - 11pm for visitors.**
-**If you show up at 11pm, you might not see anyone.**
+**If you show up after 11pm, you might not see anyone.**
 
 **There are two doorbells at the front door. The bottom one is ours, please use it if the door is locked!**
 
