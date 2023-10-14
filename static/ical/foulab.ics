@@ -428,4 +428,15 @@ DESCRIPTION:FOULAB x PapersWeLove present: BigTable
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20231031T183000Z
+UID:74185ab5-9d1b-4cd8-a39a-6ab93f8b252f
+DTSTART;TZID="America/New_York":20231031T183000
+DTEND;TZID="America/New_York":20231031T230000
+SUMMARY:FOULAB Halloween Party!!!
+URL:https://foulab.org/news/halloween-party-2023
+DESCRIPTION:FOULAB Halloween Party!!!
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
