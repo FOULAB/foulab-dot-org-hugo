@@ -10,6 +10,13 @@ disableKinds = ['taxonomy', 'term']
 paginate = 7
 paginatePath = "p"
 
+[frontmatter]
+# Let explicit frontmatter override git, in case we edit articles after
+# push (eg. typos, see commit e9cd743) but want to preserve a specific
+# original date in the feed.
+# https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

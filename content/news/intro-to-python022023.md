@@ -1,7 +1,7 @@
 +++
 headline = "ARTICLE"
 title = "Intro To Python"
-date = "2023-01-23 11:42:01-0500"
+lastmod = "2023-01-23 11:42:01-0500"
 +++
 
 {{< centered-image src="python.jpg" width="640">}}

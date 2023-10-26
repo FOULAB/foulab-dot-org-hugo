@@ -1,7 +1,7 @@
 +++
 headline = "ARTICLE"
 title = "Foulab x PapersWeLove present: BigTable"
-date = "2023-09-29 13:05:23-0400"
+lastmod = "2023-09-29 13:05:23-0400"
 author_name = "kryma"
 +++
 
