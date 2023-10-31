@@ -45,10 +45,10 @@
 	<hr />
 	<center>
 	<br/><br/>
-	<a href="https://usedservers.ca" target="_blank"><img src="{{ .Site.BaseURL }}img/usedservers.png" alt="Used Servers" style="width:100%; background-color:white; border-radius:3px;"></a>
+	{{ if .IsHome }}<a href="https://usedservers.ca" target="_blank">{{ end }}<img src="{{ .Site.BaseURL }}img/usedservers.png" alt="Used Servers" style="width:100%; background-color:white; border-radius:3px;">{{ if .IsHome }}</a>{{ end }}
 	
 	<br/><br/>
-	<a href="https://canservers.com" target="_blank"><img src="{{ .Site.BaseURL }}img/canservers.svg" alt="Canadian Servers" style="width:100%; background-color:white; padding: 4px 0px 4px 0px; border-radius: 3px"></a>
+	{{ if .IsHome }}<a href="https://canservers.com" target="_blank">{{ end }}<img src="{{ .Site.BaseURL }}img/canservers.svg" alt="Canadian Servers" style="width:100%; background-color:white; padding: 4px 0px 4px 0px; border-radius: 3px">{{ if .IsHome }}</a>{{ end }}
 	</center>
 
 	</div>
