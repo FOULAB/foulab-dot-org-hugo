@@ -33,6 +33,10 @@ Foulab is non-profit organization registered in the province of Quebec. Our fund
 
 Foulab is entirely member run and funded, and has been for over 10 years (EST. summer of 2008). It is one of the first Hackerspaces in Canada; along with Hacklab.to and VHS (Vancouver Hacker Space) all created within a couple of weeks of The Last HOPE conference.
 
+Watch this short documentary film [_Repurpose_](https://www.youtube.com/watch?v=MOTw_PkK_SU) (by Tom Smith aka Jack Oatmon) to learn more:
+
+{{< youtube MOTw_PkK_SU >}}
+
 Since then the scene has expanded and we've seen various Fablabs/Makerspaces open in the city (Echo Fab, Helios, iMusée's Fablab Inc.).
 While opinions differ and definitions are not set in stone, the two differ slightly in that Hackerspaces tend to be more community/members oriented and subversive, while the other tends to run more like coworking spaces. It's a complex topic that is the subject of many discussions. You can read about it more in this dissertation: Peer Production of Open Hardware: Unfinished Artefacts and Architectures in the Hackerspaces (specially the section titled 'Shared machine shops compared to hackerspaces').
 
