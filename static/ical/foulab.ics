@@ -429,13 +429,57 @@ LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTAMP:20231031T183000Z
+DTSTAMP:20231031T223000Z
 UID:74185ab5-9d1b-4cd8-a39a-6ab93f8b252f
 DTSTART;TZID="America/New_York":20231031T183000
 DTEND;TZID="America/New_York":20231031T230000
 SUMMARY:FOULAB Halloween Party!!!
 URL:https://foulab.org/news/halloween-party-2023
 DESCRIPTION:FOULAB Halloween Party!!!
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231119T000000Z
+UID:e5838b00-dd73-466f-8ae2-e6f8f16de497
+DTSTART;TZID="America/New_York":20231118T190000
+DTEND;TZID="America/New_York":20231118T210000
+SUMMARY:FOULAB Trivia Night
+URL:https://foulab.org/news/events-november-2023
+DESCRIPTION:FOULAB Trivia Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231119T153000Z
+UID:16fd19c4-f401-4f8a-825f-7cd33f49763a
+DTSTART;TZID="America/New_York":20231119T103000
+DTEND;TZID="America/New_York":20231119T170000
+SUMMARY:Debian & Stuff - November 2023
+URL:https://agendadulibre.qc.ca/events/2411
+DESCRIPTION:Debian & Stuff - November 2023
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231125T200000Z
+UID:2fcc838a-2e8c-46a3-8ee0-0b58de79b72d
+DTSTART;TZID="America/New_York":20231125T150000
+DTEND;TZID="America/New_York":20231125T170000
+SUMMARY:FOULAB Organizational Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Organizational Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231126T200000Z
+UID:c827d4d7-b251-4ebe-874d-d0d138c11067
+DTSTART;TZID="America/New_York":20231126T150000
+DTEND;TZID="America/New_York":20231126T190000
+SUMMARY:Killed By Diodes - Mothership RPG
+URL:https://www.eventbrite.com/e/killed-by-diodes-mothership-rpg-tickets-754033553657
+DESCRIPTION:Killed By Diodes - Mothership RPG
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
