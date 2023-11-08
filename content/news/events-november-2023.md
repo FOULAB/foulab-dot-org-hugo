@@ -2,7 +2,7 @@
 headline = "ARTICLE"
 
 title = "Foulab Events - November 2023"
-date = "2023-11-07 20:52:23-0500"
+lastmod = "2023-11-07 20:52:23-0500"
 author_name = "kryma"
 +++
 
