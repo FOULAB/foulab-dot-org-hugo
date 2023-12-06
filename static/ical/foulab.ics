@@ -483,4 +483,48 @@ DESCRIPTION:Killed By Diodes - Mothership RPG
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20231212T233000Z
+UID:d8b3b910-dde3-4f2e-bbab-a41017516623
+DTSTART;TZID="America/New_York":20231212T183000
+DTEND;TZID="America/New_York":20231212T230000
+SUMMARY:FOULAB Project Night
+URL:https://foulab.org/news/events-december-2023
+DESCRIPTION:FOULAB Project Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231217T200000Z
+UID:f8d49c5d-9b0e-4379-9d73-09b3d85da2dc
+DTSTART;TZID="America/New_York":20231217T150000
+DTEND;TZID="America/New_York":20231217T190000
+SUMMARY:Killed By Diodes - Return of Mothership RPG
+URL:https://www.eventbrite.com/e/killed-by-diodes-mothership-rpg-tickets-754033553657
+DESCRIPTION:Killed By Diodes - Return of Mothership RPG
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231221T153000Z
+UID:a773a7d8-72e0-4c8c-8351-3f0de2112c73
+DTSTART;TZID="America/New_York":20231221T183000
+DTEND;TZID="America/New_York":20231221T230000
+SUMMARY:FOULABmas party!!!1!
+URL:https://foulab.org/news/events-december-2023
+DESCRIPTION:FOULABmas party!!!1!
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20231230T200000Z
+UID:50be97b1-1e6e-40be-b150-fbe05dcebb07
+DTSTART;TZID="America/New_York":20231230T150000
+DTEND;TZID="America/New_York":20231230T170000
+SUMMARY:FOULAB Organizational Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Organizational Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
