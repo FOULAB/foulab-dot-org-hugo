@@ -8,7 +8,7 @@ Come to [COOP Recyborg](https://recyborg.com/about-us/?lang=en}) on the night of
 
 ***This is a mask-mandatory event (N95 or better).***
 
-Held in conjunction with [Foulab](https://foulab.org). Special thanks to @computerbomb, Curator of the Foulab museum, without whom this would not have been possible! He will be co-presenting the workshop with me, Kastora, The Witch of the Wires.
+Held in conjunction with [Recyborg](https://recyborg.com). Special thanks to @computerbomb, Curator of the Foulab museum, without whom this would not have been possible! He will be co-presenting the workshop with me, Kastora, The Witch of the Wires.
 
 COOP Recyborg is located at [Bâtiment 7](https://www.batiment7.org/en/factory-of-collective-autonomy/), rue 1900 le Ber, Suite C, on the 57 and 71 bus lines. 
 
@@ -42,7 +42,7 @@ Venez chez le [COOP Recyborg](https://recyborg.com/about-us/?lang=fr) le samedi 
 
 ***Les masques N95 ou mieux sont requises pour toutes les participantes.***
 
-Faite en conjunction avec [Foulab](https://foulab.org) grace à l'aide du conservateur de la musée de Foulab, dit @computerbomb, sans lesquelles cette événement n'aurait être pas possible! Il présentera cette événement avec moi, Kastora, la so(u)rcière des fils.
+Faite en conjunction avec [Recyborg](https://recyborg.com) grace à l'aide du conservateur de la musée de Foulab, dit @computerbomb, sans lesquelles cette événement n'aurait être pas possible! Il présentera cette événement avec moi, Kastora, la so(u)rcière des fils.
 
 Le COOP Recyborg est situé à [Bâtiment 7](https://www.batiment7.org/), rue 1900 le Ber, suite C, sur les lignes d'autobus 57 et 71.
 
