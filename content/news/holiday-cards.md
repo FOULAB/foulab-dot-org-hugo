@@ -1,6 +1,6 @@
 # HACKY HOLIDAYS
 
-__[Saturday December 23rd @ 18:00 - 20:00]({{< ref "calendar.md" >}})__
+__[Saturday December 23rd @ 18:00 - 21:00]({{< ref "calendar.md" >}})__
 
 Do you love the GREEEHHHHHHHHHHHHHHHHHHZZZZZZZZZZHHHHHHHHHH noise of the dot-matrix printer? Do you want to make cool lo-fi pixelated greeting cards for your loved ones?
 
@@ -36,7 +36,7 @@ This event is FREE, no registration required
 
 <hr />
 
-__[Saturday December 23rd @ 18:00 - 20:00]({{< ref "calendar.md" >}})__
+__[Saturday December 23rd @ 18:00 - 21:00]({{< ref "calendar.md" >}})__
 
 Est-ce que vous aimez les sons ZZZZZZZZZZZZZZHHHHHHHHHHHHHHNNNNNNNNGGGGGGGGGGGG des imprimantes dot-matrix des années 80? Est-ce que vous aimeriez fair les cartes de souhaite genre lo-fi pixel rétro pour vos proches? 
 
