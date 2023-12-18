@@ -2,7 +2,7 @@
 
 Do you love the GREEEHHHHHHHHHHHHHHHHHHZZZZZZZZZZHHHHHHHHHH noise of the dot-matrix printer? Do you want to make cool lo-fi pixelated greeting cards for your loved ones?
 
-{{< centered-image src="m4m.png" >}}
+{{< centered-image src="m4m.png" width="700">}}
 
 Come to [COOP Recyborg](https://recyborg.com/about-us/?lang=en}) on the night of Saturday, December 23rd starting at 6PM and we will show you how to print these cards on a real Apple IIe computer and Apple ImageWriter II printer from the mid-80s!
 
@@ -23,7 +23,7 @@ Accessibility information:
 - You can also arrive to the north side of the building by car, where there is a curb, unfortunately with no curb cut. It is accessed through the parking lot at 1830 le Ber. We will try to get a ramp for this side before the event, and this page will be updated if we get one.
 - There is a wheelchair-accessible bathroom, but access to all bathrooms requires exiting the space and going back along the walkway to another entry about 70m.
 
-{{< centered-image src="accessibility.png" >}}
+{{< centered-image src="accessibility.png" width="700">}}
 
 - CO₂ levels are quite low in the space, because it's a drafty old warehouse. That's good!
 - It's cold in the space, because it's a drafty old warehouse. The temperature will be around 16ºC. That's bad! Expect to keep your coat on.
@@ -36,7 +36,7 @@ This event is FREE, no registration required
 
 Est-ce que vous aimez les sons ZZZZZZZZZZZZZZHHHHHHHHHHHHHHNNNNNNNNGGGGGGGGGGGG des imprimantes dot-matrix des années 80? Est-ce que vous aimeriez fair les cartes de souhaite genre lo-fi pixel rétro pour vos proches? 
 
-{{< centered-image src="m4m.png" >}}
+{{< centered-image src="m4m.png" width="700">}}
 
 Venez chez le [COOP Recyborg](https://recyborg.com/about-us/?lang=fr) le samedi 23 décembre dès 18h le soir et nous vous montrons comment faire ces cartes aven un vrai ordinateur Apple IIe et une imprimante Apple ImageWriter II qui date dès années mi-80!
 
@@ -57,7 +57,7 @@ Consignes sur l'accessibilité:
 - Vous pouvez aussi arriver en voiture au côté nord du bâtiment. Il y a un trottoirs sans rampe de hauteur d'environ 12cm ou 15cm. C'est accessible par le 1830 le Ber. J'essai de trouver une rampe avant l'événement, si j'en retrouverai un je fais un mise à jour ici. 
 - Il y a une salle de bain accessible mais l'accès aux toutes les salles de bain sont à l'extérieur de l'espace, il faut sortir et reculer vers la façade de l'edifice environ 70m.
 
-{{< centered-image src="accessibility.png" >}}
+{{< centered-image src="accessibility.png" width="700">}}
 
 - Le niveau de dioxyde de carbone dans l'espace est faible parce ce que c'est un ancien entrepôt avec beaucoup des courants de l'air dedans. C'est bon!
 - La temperature est basse parce que c'est un ancien entrepôt avec beaucoup des courants de l'air dedans. Ça fait mal! Il faut prévoir garder son manteau.
