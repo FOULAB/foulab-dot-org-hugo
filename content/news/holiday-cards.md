@@ -1,3 +1,9 @@
++++
+title = "HACKY HOLIDAYS!"
+author_name = "sfxman"
+lastmod = "2023-12-18 23:39:09 -0500"
++++
+
 # HACKY HOLIDAYS
 
 __[Saturday December 23rd @ 18:00 - 21:00]({{< ref "calendar.md" >}})__
@@ -6,7 +12,7 @@ Do you love the GREEEHHHHHHHHHHHHHHHHHHZZZZZZZZZZHHHHHHHHHH noise of the dot-mat
 
 {{< centered-image src="m4m.png" width="700">}}
 
-Come to [COOP Recyborg](https://recyborg.com/about-us/?lang=en}) on the night of Saturday, December 23rd starting at 6PM and we will show you how to print these cards on a real Apple IIe computer and Apple ImageWriter II printer from the mid-80s!
+Come to [COOP Recyborg](https://recyborg.com/about-us/?lang=en) on the night of Saturday, December 23rd starting at 6PM and we will show you how to print these cards on a real Apple IIe computer and Apple ImageWriter II printer from the mid-80s!
 
 ***This is a mask-mandatory event (N95 or better).***
 
