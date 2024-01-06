@@ -527,4 +527,37 @@ DESCRIPTION:FOULAB Organizational Meeting
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240125T000000Z
+UID:574b5498-84a0-4e10-aa7b-f6fea1b983f4
+DTSTART;TZID="America/New_York":20240124T190000
+DTEND;TZID="America/New_York":20240124T220000
+SUMMARY:Macintosh Day Trivia Night
+URL:https://foulab.org
+DESCRIPTION:Macintosh Day Trivia Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240127T200000Z
+UID:6e16b8fb-441e-46b5-8fc1-4cf9424f4e70
+DTSTART;TZID="America/New_York":20240127T150000
+DTEND;TZID="America/New_York":20240127T170000
+SUMMARY:FOULAB Organizational Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Organizational Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240128T200000Z
+UID:4dc260b1-ea83-4340-92c6-5167e96df9d1
+DTSTART;TZID="America/New_York":20240128T150000
+DTEND;TZID="America/New_York":20240128T190000
+SUMMARY:Killed By Diodes - Cyberpunk 2013 RPG
+URL:https://foulab.org
+DESCRIPTION:Killed By Diodes - Cyberpunk 2013 RPG
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
