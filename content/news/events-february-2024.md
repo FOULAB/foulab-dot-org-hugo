@@ -1,4 +1,6 @@
 +++
+title = "Foulab Events - February 2024"
+lastmod = "2024-02-03 19:49:26-0500"
 headline = "ARTICLE"
 +++
 
@@ -26,7 +28,7 @@ After all, why buy materials when you get them for free with almost every purcha
 
 <br/>
 
-### Killed by Diodes Presents: Remember Tomorrow - Sunday February 25th @ 15:00 - 19:00
+### Killed by Diodes Presents: Remember Tomorrow - Sunday February 25th @ 16:00 - 19:00
 
 Our ongoing collaboration with [Killed by Dice](https://killedbydice.com)'s **der_moderne_man** continues. This month, we are enjoying an exciting session of Remember Tomorrow - an unusual cyberpunk storytelling game set in the slightly different near future.
 
