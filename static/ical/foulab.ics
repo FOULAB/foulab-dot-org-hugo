@@ -560,4 +560,70 @@ DESCRIPTION:Killed By Diodes - Cyberpunk 2013 RPG
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240206T230000Z
+UID:82acc72d-07a7-4684-96d2-42ea9a827250
+DTSTART;TZID="America/New_York":20240206T190000
+DTEND;TZID="America/New_York":20240206T230000
+SUMMARY:Museum Development Session
+URL:https://foulab.org/news/events-february-2024/
+DESCRIPTION:Museum Development Session
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240220T230000Z
+UID:6527c847-724d-413f-af28-a3a0fdade672
+DTSTART;TZID="America/New_York":20240220T190000
+DTEND;TZID="America/New_York":20240220T220000
+SUMMARY:Creative Recycling: Making Art with Scrap Material, part 1
+URL:https://foulab.org/news/events-february-2024/
+DESCRIPTION:Creative Recycling: Making Art with Scrap Material, part 1
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240222T230000Z
+UID:1cdc4f45-0cce-4142-b422-05e8c471640c
+DTSTART;TZID="America/New_York":20240222T190000
+DTEND;TZID="America/New_York":20240222T220000
+SUMMARY:Creative Recycling: Making Art with Scrap Material, part 2
+URL:https://foulab.org/news/events-february-2024/
+DESCRIPTION:Creative Recycling: Making Art with Scrap Material, part 2
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240225T200000Z
+UID:4dc260b1-ea83-4340-92c6-5167e96df9d1
+DTSTART;TZID="America/New_York":20240128T150000
+DTEND;TZID="America/New_York":20240128T190000
+SUMMARY:Killed By Diodes - Remember Tomorrow
+URL:https://killedbydice.com/
+DESCRIPTION:Killed By Diodes - Remember Tomorrow
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240308T220000Z
+UID:934bef5c-eb69-4ebd-9f2f-a0c45bb2cbe4
+DTSTART;TZID="America/New_York":20240222T180000
+DTEND;TZID="America/New_York":20240222T220000
+SUMMARY:KDE 6th Megarelease Launch Party
+URL:https://foulab.org/news/events-february-2024/
+DESCRIPTION:KDE 6th Megarelease Launch Party
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240225T190000Z
+UID:29fd45de-1032-43c6-8b6c-aaccaea6a2c6
+DTSTART;TZID="America/New_York":20240128T150000
+DTEND;TZID="America/New_York":20240128T170000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
