@@ -596,8 +596,8 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20240225T210000Z
 UID:4dc260b1-ea83-4340-92c6-5167e96df9d1
-DTSTART;TZID="America/New_York":20240128T160000
-DTEND;TZID="America/New_York":20240128T190000
+DTSTART;TZID="America/New_York":20240225T160000
+DTEND;TZID="America/New_York":20240225T190000
 SUMMARY:Killed By Diodes - Remember Tomorrow
 URL:https://killedbydice.com/
 DESCRIPTION:Killed By Diodes - Remember Tomorrow
@@ -616,13 +616,35 @@ LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
 BEGIN:VEVENT
-DTSTAMP:20240225T190000Z
+DTSTAMP:20240316T190000Z
 UID:29fd45de-1032-43c6-8b6c-aaccaea6a2c6
-DTSTART;TZID="America/New_York":20240128T150000
-DTEND;TZID="America/New_York":20240128T170000
+DTSTART;TZID="America/New_York":20240316T150000
+DTEND;TZID="America/New_York":20240316T170000
 SUMMARY:FOULAB Monthly Meeting
 URL:https://foulab.org
 DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240317T163000Z
+UID:a756109d-3a5e-4ba3-b0ef-48eec7ca600f
+DTSTART;TZID="America/New_York":20240317T123000
+DTEND;TZID="America/New_York":20240317T140000
+SUMMARY:Introduction to Mastodon and the Fediverse
+URL:https://foulab.org
+DESCRIPTION:Introduction to Mastodon and the Fediverse
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240317T200000Z
+UID:85889dd1-7a5e-43ca-a72b-995aef6c8f89
+DTSTART;TZID="America/New_York":20240317T160000
+DTEND;TZID="America/New_York":20240317T190000
+SUMMARY:Killed by Dice Presents: Data Dive, Cyberpunk Role-playing with The Pool
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Data Dive, Cyberpunk Role-playing with The Pool
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
