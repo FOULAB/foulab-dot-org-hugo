@@ -1,0 +1,13 @@
+
+name = "Foulab 2018"
+license = "MIT"
+licenselink = "https://github.com/foulab/foulab-2018/blob/master/LICENSE.md"
+description = "Redesign of site from 2018 template"
+homepage = "https://foulab.org/"
+tags = []
+features = []
+min_version = "0.38"
+
+[author]
+  name = "Danukeru"
+  homepage = "https://danuke.ru"
