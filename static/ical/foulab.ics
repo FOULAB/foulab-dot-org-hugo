@@ -648,4 +648,70 @@ DESCRIPTION:Killed by Dice Presents: Data Dive, Cyberpunk Role-playing with The 
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240406T140000Z
+UID:ae1f9f28-1c71-4b40-9275-4da1e13787f9
+DTSTART;TZID="America/New_York":20240406T100000
+DTEND;TZID="America/New_York":20240406T190000
+SUMMARY:Cleaning day + FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Cleaning day + FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240407T130000Z
+UID:d06c5338-0bc5-41c6-8834-9ef66fc8af8b
+DTSTART;TZID="America/New_York":20240407T090000
+DTEND;TZID="America/New_York":20240407T120000
+SUMMARY:Sunday Mesh Morning
+URL:https://foulab.org
+DESCRIPTION:Sunday Mesh Morning
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240411T230000Z
+UID:94e0699f-de1e-4b0d-a613-aa60189a8ce8
+DTSTART;TZID="America/New_York":20240411T190000
+DTEND;TZID="America/New_York":20240411T120300
+SUMMARY:FOULAB Wiki Night
+URL:https://foulab.org
+DESCRIPTION:FOULAB Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240421T200000Z
+UID:5cb4f877-aa9d-4e51-8c76-6be2ec2c2cbb
+DTSTART;TZID="America/New_York":20240421T160000
+DTEND;TZID="America/New_York":20240421T190000
+SUMMARY:Killed by Dice Presents: Mothership Returns
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Mothership Returns
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240511T190000Z
+UID:0d52fb34-f1da-46b0-8d87-1cf50f78cc9a
+DTSTART;TZID="America/New_York":20240425T193000
+DTEND;TZID="America/New_York":20240425T213000
+SUMMARY:FOULAB Project Night
+URL:https://foulab.org
+DESCRIPTION:FOULAB Project Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240425T233000Z
+UID:0d52fb34-f1da-46b0-8d87-1cf50f78cc9a
+DTSTART;TZID="America/New_York":20240511T150000
+DTEND;TZID="America/New_York":20240511T170000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
