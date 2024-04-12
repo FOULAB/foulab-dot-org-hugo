@@ -37,7 +37,15 @@ Watch this short documentary film [_Repurpose_](https://www.youtube.com/watch?v=
 
 {{< youtube MOTw_PkK_SU >}}
 
-Since then the scene has expanded and we've seen various Fablabs/Makerspaces open in the city (Echo Fab, Helios, iMusée's Fablab Inc.).
+<br/>
+
+We were also featured in a <a href="https://www.tiktok.com/@radpointca/video/7349272602185059590" target="_blank">short Radio-Canada segment from March 2024</a>:
+
+<center><video src="/media/video/about/radpointca-foulab-2024.mp4" controls="1" height="400"></video></center>
+
+<br/>
+
+Since the early 2000s, then the scene has expanded and we've seen various Fablabs/Makerspaces open in the city (Echo Fab, Helios, iMusée's Fablab Inc.).
 While opinions differ and definitions are not set in stone, the two differ slightly in that Hackerspaces tend to be more community/members oriented and subversive, while the other tends to run more like coworking spaces. It's a complex topic that is the subject of many discussions. You can read about it more in this dissertation: Peer Production of Open Hardware: Unfinished Artefacts and Architectures in the Hackerspaces (specially the section titled 'Shared machine shops compared to hackerspaces').
 
 More hackerspace theory can be found here:
