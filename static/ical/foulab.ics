@@ -714,4 +714,70 @@ DESCRIPTION:FOULAB Monthly Meeting
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240505T140000Z
+UID:67f31bd2-a80e-4d2c-aac9-46122cfd348e
+DTSTART;TZID="America/New_York":20240505T100000
+DTEND;TZID="America/New_York":20240505T130000
+SUMMARY:Sunday Mesh Morning II
+URL:https://foulab.org
+DESCRIPTION:Sunday Mesh Morning II
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240507T233000Z
+UID:2ab0b899-2f5c-4303-a73e-8a7426224141
+DTSTART;TZID="America/New_York":20240507T193000
+DTEND;TZID="America/New_York":20240507T210000
+SUMMARY:Intro workshop for FOULAB Does Gamedev v1
+URL:https://foulab.org
+DESCRIPTION:Intro workshop for FOULAB Does Gamedev v1
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240511T190000Z
+UID:9f48175a-03bd-4c11-a28d-6f09ad2a5e67
+DTSTART;TZID="America/New_York":20240511T150000
+DTEND;TZID="America/New_York":20240511T170000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240514T230000Z
+UID:8f49b8bf-3abd-4fb6-92f0-787788a6492a
+DTSTART;TZID="America/New_York":20240514T190000
+DTEND;TZID="America/New_York":20240514T230000
+SUMMARY:Scrap Sculpture Workshop II
+URL:https://foulab.org
+DESCRIPTION:Scrap Sculpture Workshop II
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240522T000000Z
+UID:578f2a0c-6d8e-4648-97fa-82b16b713150
+DTSTART;TZID="America/New_York":20240521T200000
+DTEND;TZID="America/New_York":20240521T203000
+SUMMARY:Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240526T200000Z
+UID:92100098-10e6-45fa-bce7-90a40640e5d1
+DTSTART;TZID="America/New_York":20240526T160000
+DTEND;TZID="America/New_York":20240526T190000
+SUMMARY:Killed by Dice Presents: InSpectres
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: InSpectres
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
