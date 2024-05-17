@@ -1,6 +1,7 @@
 +++
 title = "Foulab Events - May 2024"
 headline = "ARTICLE"
+lastmod = "2024-05-02 00:24:00-0400"
 +++
 
 {{< centered-image src="foulab-dos.jpg" width="384" height="240">}}
@@ -56,17 +57,19 @@ By popular demand, the sculpture workshop from February returns! **stuntman**, o
 
 <br/>
 
-### Wiki Night - Tuesday May 21st @ 20:00 - 20:30
-
-FOULAB's infrastructure operator and archivist **eigma** invites you for another wiki night - where we read the articles of the wiki of old, and write new ones as we see fit. Join our thirty-minute flow of information - let's document the lab!
-
-<br/>
-
-### Killed by Dice Presents: InSpectres - Sunday May 26th @ 16:00 - 19:00
+### Killed by Dice Presents: InSpectres - Sunday May 19th @ 16:00 - 19:00
 
 [Killed by Dice](https://killedbydice.com) and **der_moderne_man** return with another banger. Have you ever seen Ghostbusters? Up for a light-hearted, hilarious tabletop RPG featuring a squad of paranormal exterminators out on a mission?
 
 Meet up with old friends, connect with new ones. This is the perfect event for someone new to Foulab - or even to Montreal! Tickets are limited - register [here](https://www.eventbrite.com/e/inspectres-lets-play-this-game-of-ironic-horror-tragic-comedy-and-mind-blowing-property-damage-tickets-895681135387) if you'd like to attend!
+
+_Edited to amend: the correct date is May 19th, not 26th as mistakenly published before._
+
+<br/>
+
+### Wiki Night - Tuesday May 21st @ 20:00 - 20:30
+
+FOULAB's infrastructure operator and archivist **eigma** invites you for another wiki night - where we read the articles of the wiki of old, and write new ones as we see fit. Join our thirty-minute flow of information - let's document the lab!
 
 <br/>
 
