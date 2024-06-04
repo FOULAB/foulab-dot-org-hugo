@@ -780,4 +780,70 @@ DESCRIPTION:Killed by Dice Presents: InSpectres
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240604T235121.475297Z
+UID:50ef8aae-14ae-4299-bac0-3ad57cddad4b
+DTSTART;TZID="America/New_York":20240605T100000
+DTEND;TZID="America/New_York":20240605T130000
+SUMMARY:Sunday Mesh Morning III
+URL:https://foulab.org
+DESCRIPTION:Sunday Mesh Morning III
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240604T235121.484559Z
+UID:f14b4e01-eb42-4bc1-877a-7c381504b001
+DTSTART;TZID="America/New_York":20240611T190000
+DTEND;TZID="America/New_York":20240611T210000
+SUMMARY:Warhammer Night
+URL:https://foulab.org
+DESCRIPTION:Warhammer Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240604T235121.484646Z
+UID:8eb8fc1d-c3a3-4fa4-b392-b0988c8f093c
+DTSTART;TZID="America/New_York":20240615T150000
+DTEND;TZID="America/New_York":20240615T170000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240604T235121.484697Z
+UID:e40f2425-ddae-4070-a455-ecab7f2a1ebf
+DTSTART;TZID="America/New_York":20240616T160000
+DTEND;TZID="America/New_York":20240616T190000
+SUMMARY:Killed by Dice Presents: Three Sixteen
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Three Sixteen
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240604T235121.484739Z
+UID:396e9f3f-52c0-4e06-b520-7f5ce23e8ce1
+DTSTART;TZID="America/New_York":20240618T200000
+DTEND;TZID="America/New_York":20240618T203000
+SUMMARY:Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240604T235121.484782Z
+UID:fa541045-87dc-44ce-a875-94467aeac6d0
+DTSTART;TZID="America/New_York":20240625T200000
+DTEND;TZID="America/New_York":20240625T220000
+SUMMARY:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+URL:https://foulab.org
+DESCRIPTION:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
