@@ -1,6 +1,7 @@
 +++
 title = "Foulab Events - June 2024"
 headline = "ARTICLE"
+lastmod = "2024-06-04 19:52:23-0400"
 +++
 
 {{< centered-image src="foulab-beat-saber.png" width="384" height="240">}}
@@ -10,7 +11,7 @@ headline = "ARTICLE"
 June has come - and with it, the summer has started! Feeling the heat yet? That's a fantastic new month the lab is cooking up.
 
 
-### Sunday Mesh Morning III - Sunday June 5th @ 10:00 - 13:00
+### Sunday Mesh Morning III - Sunday June ~~5th~~ 9th @ 10:00 - 13:00
 
 An ongoing exploration of mesh networking and decentralized infrastructure hosted by none other than **kryma** and the team.  
 
