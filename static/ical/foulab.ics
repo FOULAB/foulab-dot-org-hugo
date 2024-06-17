@@ -846,4 +846,15 @@ DESCRIPTION:Demonstration of Resilient Infrastructure Through Open Sessions (aka
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240617T034843.388680Z
+UID:60aa09be-8936-4411-971a-1db1a7ede2fb
+DTSTART;TZID="America/New_York":20240701T150000
+DTEND;TZID="America/New_York":20240701T230000
+SUMMARY:FOULAB Party
+URL:https://foulab.org
+DESCRIPTION:FOULAB Party
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
