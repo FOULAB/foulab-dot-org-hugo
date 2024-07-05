@@ -856,4 +856,70 @@ DESCRIPTION:FOULAB Party
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240705T010640.607963Z
+UID:b4d6df8e-b6b5-4604-a5d7-fba6cca76220
+DTSTART;TZID="America/New_York":20240702T200000
+DTEND;TZID="America/New_York":20240702T203000
+SUMMARY:Fan Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Fan Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240705T010640.609526Z
+UID:29dc422c-3e47-4e7f-b78f-15b0d29c92df
+DTSTART;TZID="America/New_York":20240707T100000
+DTEND;TZID="America/New_York":20240707T130000
+SUMMARY:Sunday Mesh Morning IV
+URL:https://foulab.org
+DESCRIPTION:Sunday Mesh Morning IV
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240705T010640.609555Z
+UID:58a70cf6-71df-4588-83f2-c5ccd7db1cc1
+DTSTART;TZID="America/New_York":20240711T190000
+DTEND;TZID="America/New_York":20240711T210000
+SUMMARY:Warhammer Night Strikes Back
+URL:https://foulab.org
+DESCRIPTION:Warhammer Night Strikes Back
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240705T010640.609573Z
+UID:c1278cfe-88bf-4fd2-b65c-e93d3d144724
+DTSTART;TZID="America/New_York":20240716T200000
+DTEND;TZID="America/New_York":20240716T220000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240705T010640.609592Z
+UID:62bbb5ef-9e8a-4b7d-a50c-e3899eca4b8a
+DTSTART;TZID="America/New_York":20240723T200000
+DTEND;TZID="America/New_York":20240723T220000
+SUMMARY:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+URL:https://foulab.org
+DESCRIPTION:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240705T010640.609609Z
+UID:de506f39-4db2-4540-88eb-267ffe86ab6c
+DTSTART;TZID="America/New_York":20240725T200000
+DTEND;TZID="America/New_York":20240725T220000
+SUMMARY:F0UL4B HACKERSPACE PROJECT NIGHT
+URL:https://foulab.org
+DESCRIPTION:F0UL4B HACKERSPACE PROJECT NIGHT
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
