@@ -922,4 +922,92 @@ DESCRIPTION:F0UL4B HACKERSPACE PROJECT NIGHT
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:04360b6a-4075-4819-a7bf-0d49c83c6eb7
+DTSTART;TZID="America/New_York":20240806T200000
+DTEND;TZID="America/New_York":20240806T203000
+SUMMARY:Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:f5cfb2f7-020d-421d-b56b-c30b20596211
+DTSTART;TZID="America/New_York":20240811T100000
+DTEND;TZID="America/New_York":20240811T130000
+SUMMARY:Sunday Mesh Morning V
+URL:https://foulab.org
+DESCRIPTION:Sunday Mesh Morning V
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:075dc753-9c8d-4e0f-aab2-3971e5b2be03
+DTSTART;TZID="America/New_York":20240813T200000
+DTEND;TZID="America/New_York":20240813T220000
+SUMMARY:Warhammer Night 3
+URL:https://foulab.org
+DESCRIPTION:Warhammer Night 3
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:effe90ea-ea9b-4379-930c-5ccd5ef0de69
+DTSTART;TZID="America/New_York":20240820T200000
+DTEND;TZID="America/New_York":20240820T210000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:753d714c-d6dc-46d2-bdc3-850002395099
+DTSTART;TZID="America/New_York":20240822T200000
+DTEND;TZID="America/New_York":20240822T210000
+SUMMARY:Hydroponics 101: Intro to the Kratky method
+URL:https://foulab.org
+DESCRIPTION:Hydroponics 101: Intro to the Kratky method
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:053b85f5-b95a-400c-a6c3-d7dcf1a58552
+DTSTART;TZID="America/New_York":20240824T190000
+DTEND;TZID="America/New_York":20240824T230000
+SUMMARY:FouLAN Party
+URL:https://foulab.org
+DESCRIPTION:FouLAN Party
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:f53017ec-6182-473f-9662-c8c80ef750fb
+DTSTART;TZID="America/New_York":20240827T200000
+DTEND;TZID="America/New_York":20240827T220000
+SUMMARY:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+URL:https://foulab.org
+DESCRIPTION:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240804T223527Z
+UID:fda383c1-7cc0-487b-8272-ecb007c73468
+DTSTART;TZID="America/New_York":20240828T190000
+DTEND;TZID="America/New_York":20240828T220000
+SUMMARY:Quiz Night: Back to School Edition
+URL:https://foulab.org
+DESCRIPTION:Quiz Night: Back to School Edition
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
