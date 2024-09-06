@@ -1010,4 +1010,59 @@ DESCRIPTION:Quiz Night: Back to School Edition
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20240906T013733Z
+UID:7d92aca2-9525-44b8-9e4f-963bc40b99f1
+DTSTART;TZID="America/New_York":20240910T200000
+DTEND;TZID="America/New_York":20240910T203000
+SUMMARY:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+URL:https://foulab.org
+DESCRIPTION:Demonstration of Resilient Infrastructure Through Open Sessions (aka Infrastructure Night)
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240906T013733Z
+UID:bd09cfe7-d75f-438d-b98e-92bb7de2f5cf
+DTSTART;TZID="America/New_York":20240911T190000
+DTEND;TZID="America/New_York":20240911T220000
+SUMMARY:Sunday Mesh Morning
+URL:https://foulab.org
+DESCRIPTION:Sunday Mesh Morning
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240906T013733Z
+UID:8c22be68-4dab-42e7-af2d-3055921b6fe4
+DTSTART;TZID="America/New_York":20240917T200000
+DTEND;TZID="America/New_York":20240917T220000
+SUMMARY:Warhammer Night 4
+URL:https://foulab.org
+DESCRIPTION:Warhammer Night 4
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240906T013733Z
+UID:ce0a04bc-6003-4509-ad6c-bd707b1c7a15
+DTSTART;TZID="America/New_York":20240919T200000
+DTEND;TZID="America/New_York":20240919T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20240906T013733Z
+UID:abb1099a-9c2b-43a6-893e-31d789ccd12c
+DTSTART;TZID="America/New_York":20240929T160000
+DTEND;TZID="America/New_York":20240929T190000
+SUMMARY:Killed by Dice Presents: Three Sixteen II
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Three Sixteen II
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
