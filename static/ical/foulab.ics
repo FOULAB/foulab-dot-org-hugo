@@ -1065,4 +1065,81 @@ DESCRIPTION:Killed by Dice Presents: Three Sixteen II
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:c73ca621-acda-4f4b-9d40-37d3618c24f5
+DTSTART;TZID="America/New_York":20241009T190000
+DTEND;TZID="America/New_York":20241009T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:95d808f3-3c44-459c-becc-6aab05319e1e
+DTSTART;TZID="America/New_York":20241015T200000
+DTEND;TZID="America/New_York":20241015T220000
+SUMMARY:Warhammer Night 5
+URL:https://foulab.org
+DESCRIPTION:Warhammer Night 5
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:49338855-61b2-492d-917b-e8dcc7744cdb
+DTSTART;TZID="America/New_York":20241019T190000
+DTEND;TZID="America/New_York":20241019T220000
+SUMMARY:Creative Recycling: Making Art with Scrap Material
+URL:https://foulab.org
+DESCRIPTION:Creative Recycling: Making Art with Scrap Material
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:c0a64854-df76-4ed5-bac6-78c4a238b103
+DTSTART;TZID="America/New_York":20241021T190000
+DTEND;TZID="America/New_York":20241021T220000
+SUMMARY:Creative Recycling: Making Art with Scrap Material
+URL:https://foulab.org
+DESCRIPTION:Creative Recycling: Making Art with Scrap Material
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:43b5b9d2-f225-414c-a94d-6245dc9b93da
+DTSTART;TZID="America/New_York":20241022T200000
+DTEND;TZID="America/New_York":20241022T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:db8a3f0d-fd04-408b-9c6c-22366b96dd9b
+DTSTART;TZID="America/New_York":20241024T183000
+DTEND;TZID="America/New_York":20241024T230000
+SUMMARY:FOULAB BIRTHDAY / HALLOWEEN PARTY
+URL:https://foulab.org
+DESCRIPTION:FOULAB BIRTHDAY / HALLOWEEN PARTY
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241002T014511Z
+UID:e7f5c78c-1fac-481f-87a5-fdf628db349b
+DTSTART;TZID="America/New_York":20241027T160000
+DTEND;TZID="America/New_York":20241027T190000
+SUMMARY:Killed by Dice Presents: Three Sixteen III
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Three Sixteen III
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
