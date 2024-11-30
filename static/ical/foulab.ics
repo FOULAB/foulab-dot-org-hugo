@@ -1252,5 +1252,49 @@ DESCRIPTION:Open-source HVAC/PPE afternoon hangout
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20241130T173151Z
+UID:fa6915b5-6e9c-465f-8222-48d14eed3ff9
+DTSTART;TZID="America/New_York":20241211T190000
+DTEND;TZID="America/New_York":20241211T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241130T173151Z
+UID:158c7444-ab41-4a59-857a-b92c763e5282
+DTSTART;TZID="America/New_York":20241213T190000
+DTEND;TZID="America/New_York":20241213T220000
+SUMMARY:Friday the 13th Party
+URL:https://foulab.org
+DESCRIPTION:Friday the 13th Party
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241130T173151Z
+UID:e7ee4720-1d5b-474c-a4a0-a599b3afa375
+DTSTART;TZID="America/New_York":20241217T200000
+DTEND;TZID="America/New_York":20241217T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20241130T173151Z
+UID:09a62b39-d011-4b8c-8b90-ccf955b20fee
+DTSTART;TZID="America/New_York":20241221T150000
+DTEND;TZID="America/New_York":20241221T170000
+SUMMARY:Data Science in Python
+URL:https://foulab.org
+DESCRIPTION:Data Science in Python
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 
 END:VCALENDAR
