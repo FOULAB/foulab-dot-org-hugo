@@ -1,12 +1,13 @@
 +++
 headline = "ARTICLE"
-title = "Foulab Events - January 2024"
+title = "Foulab Events - January 2025"
+author_name = "v2thegreat"
 +++
 
 {{< centered-image src="events-jan-2025.gif" width="384">}}
 
 
-<center><i>An early 3D model of the workshop by **v2thegreat**</i></center>
+<center><i>An early 3D model of the workshop by <b>v2thegreat</b></i></center>
 
 <br/>
 
