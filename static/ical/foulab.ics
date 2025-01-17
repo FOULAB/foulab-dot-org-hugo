@@ -1359,4 +1359,57 @@ DESCRIPTION:Killed by Dice Presents: Three Sixteen V
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+X-EVENTMONTH:FEB2025
+
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:9bcc6768-b28c-478c-bb2c-a19b0a3de25b
+DTSTART;TZID="America/New_York":20250205T190000
+DTEND;TZID="America/New_York":20250205T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:1b711460-ce63-4249-bd5d-319ef4a2ef7e
+DTSTART;TZID="America/New_York":20250213T200000
+DTEND;TZID="America/New_York":20250213T203000
+SUMMARY:Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:f40ba397-6ee4-40ff-bef6-9c299cd9405d
+DTSTART;TZID="America/New_York":20250218T200000
+DTEND;TZID="America/New_York":20250218T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:9aa742a0-1814-4297-93fa-d14f41f6a235
+DTSTART;TZID="America/New_York":20250223T160000
+DTEND;TZID="America/New_York":20250223T190000
+SUMMARY:Killed by Dice Presents: Three Sixteen V
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Three Sixteen V
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:2fcb692b-a7ad-41d8-ae9f-56db4cccb20a
+DTSTART;TZID="America/New_York":20250225T200000
+DTEND;TZID="America/New_York":20250225T220000
+SUMMARY:Tabletop Games Night
+URL:https://foulab.org
+DESCRIPTION:Tabletop Games Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
