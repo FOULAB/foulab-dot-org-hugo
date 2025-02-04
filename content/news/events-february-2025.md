@@ -3,7 +3,7 @@ headline = "ARTICLE"
 title = "Foulab Events - February 2025"
 lastmod = "2025-01-30 21:52:33-0400"
 author_name = "mayamarshel"
-+++
+++++
 
 {{< centered-image src="/events-february-2025/champagneGatorade.png" >}}
 
@@ -20,7 +20,7 @@ Looking to help with the ongoing creation of the coolest local network in Montre
 
 The Wednesday Mesh Evening is a Wednesday evening event dedicated to mesh networking in all its forms. From discussing it, researching and testing alternative network topologies, to practical exercises in deploying peer-to-peer infrastructure in FOULAB and around it.
 
-This event is hosted by **Kryma** so node-body should be missing it.
+This event is hosted by **kryma** so node-body should be missing it.
 
 <br/>
 
