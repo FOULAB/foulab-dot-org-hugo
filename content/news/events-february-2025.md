@@ -2,7 +2,6 @@
 headline = "ARTICLE"
 title = "Foulab Events - February 2025"
 lastmod = "2025-01-30 21:52:33-0400"
-author_name = "mayamarshel"
 ++++
 
 {{< centered-image src="/events-february-2025/champagneGatorade.png" >}}
