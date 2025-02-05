@@ -2,9 +2,9 @@
 headline = "ARTICLE"
 title = "Foulab Events - February 2025"
 lastmod = "2025-01-30 21:52:33-0400"
-++++
++++
 
-{{< centered-image src="foulab-2024.png" width="384" height="240">}}
+{{< centered-image src="events-february-2025.png">}}
 
 <br/>
 
