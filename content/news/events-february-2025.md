@@ -4,7 +4,7 @@ title = "Foulab Events - February 2025"
 lastmod = "2025-01-30 21:52:33-0400"
 +++
 
-{{< centered-image src="events-february-2025.png">}}
+{{< centered-image src="events-february-2025.png" width="272" height="444">}}
 <center><i>Drawing by <b>mayam</b> of the Gatorade Chalice celebrating a new member at the monthly meeting </i></center>
 
 <br/>
