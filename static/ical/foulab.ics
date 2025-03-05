@@ -1412,4 +1412,87 @@ DESCRIPTION:Tabletop Games Night
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+X-EVENTMONTH:MAR2025
+
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:7815dd36-e777-49aa-924f-f9f50bdb2b90
+DTSTART;TZID="America/New_York":20250305T190000
+DTEND;TZID="America/New_York":20250305T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:7bd1eb85-ae27-4f95-a975-e11a71b0f265
+DTSTART;TZID="America/New_York":20250311T200000
+DTEND;TZID="America/New_York":20250311T220000
+SUMMARY:Infrastructure Night
+URL:https://foulab.org
+DESCRIPTION:Infrastructure Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:89167f77-5c1f-42a8-b116-d1c41bdca469
+DTSTART;TZID="America/New_York":20250313T200000
+DTEND;TZID="America/New_York":20250313T220000
+SUMMARY:Gentoo Night
+URL:https://foulab.org
+DESCRIPTION:Gentoo Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:2fe138bc-6f1c-4e35-87cd-d46f72050acb
+DTSTART;TZID="America/New_York":20250318T200000
+DTEND;TZID="America/New_York":20250318T220000
+SUMMARY:Sewing Orientation Workshop Night
+URL:https://foulab.org
+DESCRIPTION:Sewing Orientation Workshop Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:c11e2f29-e93d-4876-b3ce-4bd6cada15b4
+DTSTART;TZID="America/New_York":20250320T200000
+DTEND;TZID="America/New_York":20250320T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:f61c3e56-c5c8-42fa-8366-1d6b4cfc5dee
+DTSTART;TZID="America/New_York":20250323T160000
+DTEND;TZID="America/New_York":20250323T200000
+SUMMARY:Killed by Dice presents: XXXXXXXXXXXX
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: XXXXXXXXXXXX
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:941bf03c-3ec6-44a1-b848-d73b102e10e7
+DTSTART;TZID="America/New_York":20250325T200000
+DTEND;TZID="America/New_York":20250325T220000
+SUMMARY:Tabletop Open Gaming Night
+URL:https://foulab.org
+DESCRIPTION:Tabletop Open Gaming Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250305T020720Z
+UID:571ff4e4-5733-41de-b05e-ece7c4147f43
+DTSTART;TZID="America/New_York":20250329T150000
+DTEND;TZID="America/New_York":20250329T200000
+SUMMARY:The Roombening
+URL:https://foulab.org
+DESCRIPTION:The Roombening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
