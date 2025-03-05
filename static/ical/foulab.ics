@@ -1469,9 +1469,9 @@ DTSTAMP:20250303T195835Z
 UID:f61c3e56-c5c8-42fa-8366-1d6b4cfc5dee
 DTSTART;TZID="America/New_York":20250323T160000
 DTEND;TZID="America/New_York":20250323T200000
-SUMMARY:Killed by Dice presents: XXXXXXXXXXXX
+SUMMARY:Killed by Dice presents: Classic Traveller
 URL:https://foulab.org
-DESCRIPTION:Killed by Dice presents: XXXXXXXXXXXX
+DESCRIPTION:Killed by Dice presents: Classic Traveller
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 BEGIN:VEVENT
