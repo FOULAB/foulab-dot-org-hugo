@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="1600"
+   height="240"
+   viewBox="0 0 1600 240"
+   sodipodi:docname="zeffy_button.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="-408.7522"
+       y="38.518654"
+       width="349.66312"
+       height="180.68175"
+       id="rect842" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ff00ff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.7173895"
+     inkscape:cx="422.3647"
+     inkscape:cy="287.15224"
+     inkscape:window-width="2560"
+     inkscape:window-height="1528"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g8">
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:2.56723"
+       id="rect222"
+       width="1597.4327"
+       height="237.64636"
+       x="1.283615"
+       y="1.2836177"
+       rx="40"
+       ry="40" />
+    <path
+       class="e"
+       d="m 1516.5726,134.38392 h -109.7384 c -4.5582,0 -8.2568,-3.69861 -8.2568,-8.25673 v 0 c 0,-4.55811 3.6986,-8.25672 8.2568,-8.25672 h 109.9047 c 13.8574,0 25.5632,-11.33982 25.3247,-25.191589 -0.2273,-13.46362 -11.2511,-24.34319 -24.7646,-24.34319 -11.5228,0 -21.2324,7.90738 -23.9883,18.58733 -0.926,3.5988 -4.059,6.18284 -7.7743,6.18284 h -0.4103 c -5.1958,0 -9.1495,-4.84646 -7.9074,-9.89254 4.4417,-17.999547 20.7277,-31.385526 40.0803,-31.385526 22.5188,0 40.8899,18.127076 41.2725,40.562746 0.3937,23.095519 -18.9089,41.998919 -42.0045,41.998919 z"
+       id="path649"
+       style="fill:#000000;stroke-width:0.554515" />
+    <path
+       class="e"
+       d="m 1482.3424,199.06249 h -75.5082 c -4.5582,0 -8.2568,-3.69861 -8.2568,-8.25672 v 0 c 0,-4.55811 3.6986,-8.25673 8.2568,-8.25673 h 75.7799 c 4.3918,0 8.2346,-3.3049 8.5284,-7.69112 0.3217,-4.80763 -3.4989,-8.82232 -8.24,-8.82232 -3.0332,0 -5.6838,1.64136 -7.12,4.08123 -1.5027,2.55632 -4.2032,4.17549 -7.1699,4.17549 v 0 c -6.3492,0 -10.3417,-6.88152 -7.1588,-12.37676 4.2864,-7.40277 12.2936,-12.39339 21.4487,-12.39339 13.5135,0 24.5372,10.87957 24.7646,24.34318 0.2329,13.85177 -11.4729,25.19159 -25.3247,25.19159 z"
+       id="path651"
+       style="fill:#000000;stroke-width:0.554515" />
+    <path
+       class="e"
+       d="m 1427.4621,102.03908 h -20.6224 c -4.5581,0 -8.2567,-3.698609 -8.2567,-8.256719 v 0 c 0,-4.55811 3.6986,-8.25672 8.2567,-8.25672 h 20.822 c 7.802,0 14.5283,-5.98321 14.9109,-13.77413 0.4104,-8.328818 -6.2494,-15.238069 -14.4894,-15.238069 -6.133,0 -11.3898,3.826151 -13.508,9.216032 -1.2477,3.177367 -4.2809,5.290077 -7.6967,5.290077 v 0 c -5.8335,0 -9.8093,-5.883408 -7.6745,-11.312105 C 1403.7233,48.184634 1414.9633,40 1428.0776,40 c 16.9238,0 30.7257,13.624421 31.014,30.481661 0.2939,17.35077 -14.2787,31.557419 -31.6295,31.557419 z"
+       id="path653"
+       style="fill:#000000;stroke-width:0.554515" />
+    <text
+       xml:space="preserve"
+       id="text840"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect842);display:inline;fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:145.801px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.911257"
+       x="51.312912"
+       y="166.21144"
+       id="text848"><tspan
+         sodipodi:role="line"
+         id="tspan846"
+         x="51.312912"
+         y="166.21144"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:145.801px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.911257">Donate with Zeffy</tspan></text>
+  </g>
+</svg>
