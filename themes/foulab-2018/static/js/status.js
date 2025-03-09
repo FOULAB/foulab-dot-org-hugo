@@ -1,12 +1,9 @@
-function handleStatus() {
-    if (JSON.parse(this.responseText)["status"] === "OPEN") {
-	document.getElementById("status").style.visibility = "visible";
-    }
-}
-
-document.addEventListener("DOMContentLoaded", function(event) {
-    var a = new XMLHttpRequest();
-    a.addEventListener("load", handleStatus);
-    a.open("GET", "https://foulab.org/status/");
-    a.send();
-});
+// Fetch the status of the lab from the server and display it.
+// Thank you modern javascript for making this so easy!
+fetch("/status/")
+    .then(response => response.json())
+    .then(data => {
+        if (data["status"] === "OPEN") {
+            document.querySelector("#status").style.visibility = "visible";
+        }
+    });

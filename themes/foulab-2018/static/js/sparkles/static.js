@@ -91,7 +91,7 @@ var WebGLStatic = function() {
     var programInfo = twgl.createProgramInfoFromProgram(gl, program);
 
     var header_img = new Image();
-    header_img.src = window.baseRoot + "/img/textures/header.png";
+    header_img.src = "/img/textures/header.png";
     
     
     var vertices_quads = [ // BOTTOM QUAD

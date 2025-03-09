@@ -1,13 +1,15 @@
 
 /* Overall Styles */
-html,body {
-    height:100%;
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: #adadad;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Default style for headers */
@@ -72,7 +74,7 @@ img {
 
 /* Default style for the separator line */
 hr {
-        height: 1px;
+  height: 1px;
 	background-color: #808080;
 	border: 0px;
 }
@@ -101,10 +103,4 @@ p {
 /* Remove border from images inside a link */
 a img {
     border: 0px;
-}
-
-#icons {
-    height: 25px;
-    width: 25px;
-    text-decoration: none;
 }

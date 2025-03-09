@@ -4,10 +4,9 @@
 {{ partial "article.html" . }}
 {{ end }}
 
-<a href="./news/">» See all articles</a>
+<a href="./news/"><span style="font-size: 1.5em;">»</span> See all articles</a>
 
-<script>
-(function () {
+<script type="text/javascript">
   const icaldebug = (new URLSearchParams(location.search)).get('icaldebug') != null;
 
   // JSON-LD is only useful to Google crawler, so save some resources (network
@@ -15,16 +14,14 @@
   //
   // https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
   if (navigator.userAgent.indexOf('Google') != -1 || icaldebug) {
-    document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener('DOMContentLoaded', function () {
       let script = document.createElement('script');
-      script.src = window.baseRoot + '/js/ical2jsonld.js';
+      script.src = '/js/ical2jsonld.js';
       script.addEventListener('load', function () {
-        ical2jsonld();
+          ical2jsonld();
       });
       document.body.appendChild(script);
-    });
+      });
   }
-})();
 </script>
-
 {{ end }}

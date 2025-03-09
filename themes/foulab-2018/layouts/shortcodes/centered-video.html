@@ -1,3 +1,11 @@
-<CENTER>
-  <video src="{{ .Site.BaseURL }}/media/video/{{ .Page.File.Dir }}{{ .Page.File.BaseFileName }}/{{ .Get "src" }}" {{ with .Get "height" }}height="{{ . }}"{{ end }} {{ with .Get "width" }}width="{{ . }}"{{ end }} preload autoplay loop muted></video>
-</CENTER>
+<video src="/media/video/{{ replace .Page.File.Dir "\\" "/" }}{{ .Page.File.BaseFileName }}/{{ .Get "src" }}"
+  {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+  {{ with .Get "height" }}height="{{ . }}"{{ end }}
+  {{ with .Get "width" }}width="{{ . }}"{{ end }}
+  preload
+  {{ if .Get "disableautoplay" }}{{ else }}autoplay{{ end }}
+  controls="{{ .Get "controls" }}"
+  loop
+  muted
+  style="display: block; margin: 0 auto;"
+/>

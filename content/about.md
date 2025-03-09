@@ -41,7 +41,7 @@ Watch this short documentary film [_Repurpose_](https://www.youtube.com/watch?v=
 
 We were also featured in a <a href="https://www.tiktok.com/@radpointca/video/7349272602185059590" target="_blank">short Radio-Canada segment from March 2024</a>:
 
-<center><video src="/media/video/about/radpointca-foulab-2024.mp4" controls="1" height="400"></video></center>
+{{< centered-video src="radpointca-foulab-2024.mp4" controls="1" height="400" disableautoplay="1" >}}
 
 <br/>
 
@@ -94,4 +94,3 @@ Don’t forget that to err is human. Blaming each other doesn’t get us anywher
 			    <p><strong>Any Foulab member may address and deal with any issue at their own discretion with input from the community.</strong></p>
 			    </li>
 			    </ul>
-
