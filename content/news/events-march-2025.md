@@ -1,9 +1,11 @@
 +++
 headline = "ARTICLE"
 title = "Foulab Events - March 2025"
+author_name = "majir"
+lastmod = "2025-03-03 14:59:26-0500"
 +++
 
-{{< centered-image src="events-march-2025.png" height="144">}}
+{{< centered-image src="events-march-2025.png" height="288">}}
 
 <center><i>Picture credit to <b>mayam</b></i></center>
 
@@ -98,9 +100,9 @@ play. Warhammer? Magic the Gathering? Risk? Mouseguard: Swords & Strongholds?
 ### The Roombening - Saturday March 29th @ 15:00 - 20:00
 
 In the far year of 2025, Robots rule the world, and AI superintelligence can
-generate pictures that seamlessly blend into our reality. If you're 2025 ou may
-have a corporate robot in your house right now. Let's hack it and make it our
-own! As corporobots gain sentience, the importance of self-reliance when it
+generate pictures that seamlessly blend into our reality. You may have a
+corporate robot in your house right now. Let's hack it and make it your
+own! As roombas gain sentience, the importance of self-reliance when it
 comes to hosting of infrastructure becomes more important than ever...
 
 This event is an old-fashioned hackparty dedicated to all sorts of cleaning
