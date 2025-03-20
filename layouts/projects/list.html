@@ -1,19 +1,24 @@
 {{ define "main" }}
+<head>
+    <link rel="stylesheet" href="{{ "css/default/projects.css" | relURL }}">
+</head>
   <div class="gallery">
+    {{.Content}}
     {{ range .Pages }}
       <div class="gallery-item">
         {{ with .Params.image }}
-          <img src="{{ . | relURL }}" alt="{{ $.Params.title }}" height="auto" width="20%">
+          <img src="{{ . | relURL }}" height="auto" width="20%">
         {{ else }}
           <p>No Image Available</p>
         {{ end }}
+
         {{ with .Params.title }}
-          <h3>{{ . }}</h3>
+        <a href="{{ $.Params.RelPermalink }}">{{ . }}</a>
         {{ end }}
+
         {{ with .Params.topic }}
-          <p>{{ . }}</p>
+          <p>creator: {{ . }}</p>
         {{ end }}
-        <a href="{{ .RelPermalink }}">View Project</a>
       </div>
     {{ end }}
   </div>

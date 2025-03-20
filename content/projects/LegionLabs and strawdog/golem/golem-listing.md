@@ -1,6 +1,7 @@
 +++
 title = "Golem Turing Machine Listing"
 headline = "Golem Turing Machine Listing"
+image = "media/image/projects/LegionLabs%20and%20strawdog/golem-blinken.png"
 +++
 
 ```
