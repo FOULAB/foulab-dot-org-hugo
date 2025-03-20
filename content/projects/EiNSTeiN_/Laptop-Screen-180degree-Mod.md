@@ -2,6 +2,7 @@
 title = "Laptop Screen 180 degree Mod"
 topic = "EINSTEIN"
 headline = "Laptop Screen 180 degree Mod"
+image = "media/image/projects/EiNSTeiN_/Laptop-Screen-180degree-Mod/LS180M-1.JPG"
 +++
 
 Here's a project I wanted to do for a long time. It's a laptop with the screen modded to turn 180 degrees.

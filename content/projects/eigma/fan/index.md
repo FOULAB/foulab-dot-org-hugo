@@ -3,6 +3,7 @@ title = "Remote Controlled Fan Timer"
 topic = "eigma"
 headline = "Remote Controlled Fan Timer"
 toc = true
+image = "media/image/projects/eigma/fan/IMG_6609.JPG"
 +++
 
 ## Introduction

@@ -2,6 +2,7 @@
 title = "The Golem: One bit to rule them all"
 topic = "LegionLabs and strawdog"
 headline = "The Golem: One bit to rule them all"
+image = "media/image/projects/LegionLabs%20and%20strawdog/busybeaver.png"
 +++
 
 

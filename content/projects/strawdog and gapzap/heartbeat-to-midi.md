@@ -2,6 +2,7 @@
 title = "Heartbeat"
 topic = "strawdog and gapzap"
 headline = "Heartbeat"
+image = "media/image/projects/strawdog%20and%20gapzap/heartbeat-to-midi/altoids.jpg"
 +++
 
 The heartbeat to midi project was a collaboration with [David Usher](http://www.davidusher.com) to develop a device that can read a persons heartbeat and produce a midi note. The project was completed in 2013, since then, there has been a minor repair or two necessary, but overall it has held up solidly. Here is a video of it in action:

@@ -2,6 +2,7 @@
 title = "Home Made Lamp"
 topic = "EINSTEIN"
 headline = "Home Made Lamp"
+image = "media/image/projects/EiNSTeiN_/Home-Made-Lamp/HML-1.JPG"
 +++
 
 
