@@ -2,6 +2,7 @@
 title = "Circular Calendar"
 topic = "strawdog"
 headline = "Circular Calendar"
+image = "media/image/projects/strawdog/circular-calendar/calendar_overall_2012.png"
 +++
 
 **UPDATE:** Calendars for 2019 and 2020 have been generated for your enjoyment!  Links are at the bottom of the page.

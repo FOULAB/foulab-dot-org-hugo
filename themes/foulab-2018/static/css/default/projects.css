@@ -5,29 +5,32 @@
     gap: 10px; 
 }
 .gallery-item {
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     display: flex;
     align-items: center; 
     gap: 15px; 
 }
 .gallery-item img {
     display: block;
-    width: 17%;
+    width: 15%;
     height: auto;
     padding: 15px;
 }
 
 .gallery-item a{
-    font-size: 1.2rem;
+    font-size: .8rem;
 
 }
-
   .gallery-item p {
-    font-size: 1rem;
+    font-size: .8rem;
     color: #555; 
     padding: 0 10px;
   } 
+  .text-item {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  } 
+
 
 /* .gallery {
     display: grid;

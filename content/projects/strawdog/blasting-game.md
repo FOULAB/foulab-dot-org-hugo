@@ -2,6 +2,7 @@
 title = "Blasting Game"
 topic = "strawdog"
 headline = "Blasting Game"
+image = "media/image/projects/strawdog/blasting-game/blastinggame_1.jpg"
 +++
 
 Somewhere through the years I picked up a No 50 Blasting machine that one of my employers was throwing away. Yep, its the real deal. Who did I work for? Thats not important right now. What is important is that this fine antique is all fixed up and hooked to an Arduino to make a party game. Here's before and after plus the score from the last Fouparty. Come to the next one and beat Bartek.

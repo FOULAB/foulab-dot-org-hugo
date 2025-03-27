@@ -4,21 +4,24 @@
 </head>
   <div class="gallery">
     {{.Content}}
-    {{ range .Pages }}
+    {{ range .RegularPagesRecursive }}   
+    <!-- .RegularPages used instead of .Pages to ignore the _index.md files in an artist's folder -->
+    <!-- .Pages only includes _index.md files if in the folder and nothing else -->
       <div class="gallery-item">
         {{ with .Params.image }}
           <img src="{{ . | relURL }}" height="auto" width="20%">
         {{ else }}
           <p>No Image Available</p>
         {{ end }}
-
-        {{ with .Params.title }}
-        <a href="{{ $.Params.RelPermalink }}">{{ . }}</a>
-        {{ end }}
-
-        {{ with .Params.topic }}
-          <p>creator: {{ . }}</p>
-        {{ end }}
+        <div class="text-item">
+          {{with .Params.title}}
+            <h3>{{ . }}</h3>
+          {{end}}
+            <a href="{{ .RelPermalink }}">View the Project</a>
+          {{ with .Params.topic }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
       </div>
     {{ end }}
   </div>

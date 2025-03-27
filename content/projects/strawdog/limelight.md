@@ -2,6 +2,8 @@
 title = "Limelight"
 topic = "strawdog"
 headline = "Limelight"
+image = "media/image/projects/strawdog/limelight/glowinggreen.jpg"
+
 +++
 
 The Joule Thief is a well known circuit for boosting voltage from a 

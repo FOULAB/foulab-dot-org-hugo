@@ -2,6 +2,8 @@
 title = "Power Bar"
 topic = "strawdog"
 headline = "Power Bar"
+image = "media/image/projects/strawdog/power-bar/after.jpg"
+
 +++
 
 A guy like me uses a lot of power outlets.  Stores keep selling these 
