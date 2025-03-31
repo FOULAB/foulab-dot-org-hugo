@@ -59,9 +59,9 @@ Share your ideas, your projects, and your thoughts on the future of Foulab. Your
 
 Calling creators as well as spectators, come share and see what your fellow Foulabers have been working on. Ask questions, watch demos, and discuss passions during this quarterly project night where everyone will be enjoying the work of others.
 
-Beginners welcome! If you’re new to the space, come by and see what we’re all about. It’s a great way to meet people and get involved in the community.
+Beginners welcome! If you're new to the space, come by and see what we're all about. It's a great way to meet people and get involved in the community.
 
 
 <br/>
 
-*In other news be sure to check out the Linux installation workshop at the awesome CIEL CDN on Tuesday, April 15th from 16:00 - 20:00. Learn how to install the lastest stable 64-bit version of Linux on your laptop! Join the fun [here](https://docs.google.com/forms/d/e/1FAIpQLSenV36Ft19dcfCxd3Sb5h2WULRT9jrtj3B_VQmB9l2Tu6UtTA/viewform).*
+*In other news be sure to check out the Linux installation workshop at the awesome CIEL CDN on Tuesday, April 15th from 16:00 - 20:00. Learn how to install the latest stable 64-bit version of Linux on your laptop! [Join the fun here](https://docs.google.com/forms/d/e/1FAIpQLSenV36Ft19dcfCxd3Sb5h2WULRT9jrtj3B_VQmB9l2Tu6UtTA/viewform).*
