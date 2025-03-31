@@ -1495,4 +1495,65 @@ DESCRIPTION:The Roombening
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:4fc3e5b4-1e17-4ead-ba03-a7cf33b833b1
+DTSTART;TZID="America/New_York":20250402T190000
+DTEND;TZID="America/New_York":20250402T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:ce567925-7c63-45a9-b38c-22c36fecde64
+DTSTART;TZID="America/New_York":20250413T160000
+DTEND;TZID="America/New_York":20250413T190000
+SUMMARY:Killed by Dice Presents: Classic Traveller
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Classic Traveller
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:4ebd67ac-c71f-4454-a2eb-525baa069b63
+DTSTART;TZID="America/New_York":20250417T200000
+DTEND;TZID="America/New_York":20250417T220000
+SUMMARY:Sewing Orientation Workshop Night
+URL:https://foulab.org
+DESCRIPTION:Sewing Orientation Workshop Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:fba07a9d-3069-4d7c-9c06-bbd6c2fcab42
+DTSTART;TZID="America/New_York":20250419T090000
+DTEND;TZID="America/New_York":20250419T180000
+SUMMARY:Spring Cleaning
+URL:https://foulab.org
+DESCRIPTION:Spring Cleaning
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:9ad8c5ef-1768-4072-98cd-cfc6c4e36ea4
+DTSTART;TZID="America/New_York":20250422T200000
+DTEND;TZID="America/New_York":20250422T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:4340be12-8334-4cdc-be56-ab9f6a1dbead
+DTSTART;TZID="America/New_York":20250429T190000
+DTEND;TZID="America/New_York":20250429T220000
+SUMMARY:Project Night
+URL:https://foulab.org
+DESCRIPTION:Project Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
