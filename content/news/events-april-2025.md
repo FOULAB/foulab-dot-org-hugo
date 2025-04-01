@@ -1,5 +1,5 @@
 +++
-title = "Foulab Events - April 2024"
+title = "Foulab Events - April 2025"
 headline = "ARTICLE"
 +++
 
