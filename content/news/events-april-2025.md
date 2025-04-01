@@ -25,7 +25,7 @@ Come discover the wonders of the Mesh Network with **kryma** and friends!
 
 ### Killed by Dice Presents: Classic Traveller - Sunday April 13th @ 16:00 - 19:00
 
-Diving into the world of sci-fi roleplaying games join the group for a new adventure.
+We are diving back into the world of sci-fi roleplaying games. Come join the group for a new adventure!
 
 We will have our first session of the monthly Classic Traveller game. There are still some open spots, please contact david AT killedbydice DOT com for more information, AKA **der_moderne_man** on Mattermost.
 
