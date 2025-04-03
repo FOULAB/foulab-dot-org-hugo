@@ -14,19 +14,27 @@
   align-items: center;
   background: #f9f9f9; 
   padding: 10px;
+  width: 95%; 
+  height: 280px;
+  position: relative; 
+  /* relative positioning so that text can be positioned in the bottom right hand side */
 }
 
 .gallery-item img {
-  width: 100%;
-  max-width: 15vw; 
+  width: 70%;
+  object-fit: cover;
   height: auto;
+  max-height: 200px; 
+
 }
 
 .text-item {
-  text-align: left;
-  margin-top: 10px;
-  align-self: flex-start;
-  /* aligns text to the left of the area not just left aligned */
+  text-align: left; 
+  position: absolute; 
+  /* absolute positioning in reference to gallery-item */
+  bottom: 0; 
+  left: 0;
+  margin: 10px;
 }
 
 .gallery-item:hover {
