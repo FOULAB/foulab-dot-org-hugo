@@ -3,27 +3,29 @@
     <link rel="stylesheet" href="{{ "css/default/projects.css" | relURL }}">
 </head>
 <div class="gallery">
-    {{ range .RegularPagesRecursive }}   
+    {{ range .RegularPagesRecursive }}
     <!-- .RegularPages used instead of .Pages to ignore the _index.md files in an artist's folder -->
     <!-- .Pages only includes _index.md files if in the folder and nothing else -->
-    <div class="gallery-item">
-        {{ with .Params.image }}
-            <img src="{{ . | relURL }}" height="auto" width="20%">
-        {{ else }}
-            <p>No Image Available</p>
-        {{ end }}
-        <div class="text-item">
-            {{with .Params.title}}
-                <h3>{{ . }}</h3>
-            {{end}}
-            <a href="{{ .RelPermalink }}">View the Project</a>
-            {{ with .Params.topic }}
-                <p>{{ . }}</p>
-            {{ end }}
+    {{ if .Params.image }} 
+    <!-- checks if the image component exists and does not execute if image does not exists (if user does not upload image it will not be displayed on the front) -->
+        <div class="gallery-item">
+            <img src="{{ .Params.image | relURL }}" height="auto" width="20%">
+            <div class="text-item">
+                {{ with .Params.title }} 
+                    <h3>{{ . }}</h3>
+                {{ end }}
+                <a href="{{ .RelPermalink }}">View the Project</a>
+                {{ with .Params.topic }}
+                    <p>{{ . }}</p>
+                {{ end }}
+            </div>
         </div>
-    </div>
-    {{ end }}
+    {{ end }} 
+    {{ end }} 
 </div>
+{{ .Content }}
 {{ end }}
+
+
 
 

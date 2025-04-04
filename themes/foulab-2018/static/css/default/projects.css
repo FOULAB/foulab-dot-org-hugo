@@ -1,6 +1,9 @@
+/* CSS for the front page of Projects page */
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
+  /* assigns grid to be 2 items per row */
   gap: 20px;
   width: 100%;
   max-width: 1200px;
@@ -10,38 +13,39 @@
 .gallery-item {
   display: flex;
   flex-direction: column;
+  /* displays text under image in column format */
   text-align: left;
   align-items: center;
   background: #f9f9f9; 
   padding: 10px;
   width: 95%; 
-  height: 280px;
+  height: 275px; 
+  /* styled to best fit page  */
   position: relative; 
-  /* relative positioning so that text can be positioned in the bottom right hand side */
+  /* position relative in in relation to text */
+  overflow: hidden; 
 }
 
 .gallery-item img {
-  width: 70%;
-  object-fit: cover;
-  height: auto;
+  width: 85%;
   max-height: 200px; 
-
+  object-fit: cover;
+  
 }
 
 .text-item {
   text-align: left; 
   position: absolute; 
-  /* absolute positioning in reference to gallery-item */
+  /* text absolute in relation to gallery-item */
   bottom: 0; 
   left: 0;
   margin: 10px;
+  width: 100%; 
 }
 
 .gallery-item:hover {
-  background-color: rgb(227, 226, 226)
+  background-color: rgb(227, 226, 226); /* Hover effect */
 }
-
-
 
 
 
