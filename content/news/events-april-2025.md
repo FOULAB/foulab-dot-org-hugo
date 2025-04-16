@@ -1,6 +1,8 @@
 +++
 title = "Foulab Events - April 2025"
 headline = "ARTICLE"
+author_name = "mayamarshel"
+lastmod = "2025-04-01 15:32:12 -0600"
 +++
 
 {{< centered-image src="events-april-2025.png" width="260" height="260">}}
@@ -39,11 +41,13 @@ Walking you through basic sewing machine etiquette, watch **kida** make and comm
 
 <br/>
 
-### Spring Cleaning - Saturday April 19th @ 09:00 - 18:00
+### Spring Cleaning - Saturday April ~~19th~~ 26th! @ 09:00 - 18:00
 
 Time to reckon with all the dust, debris, and desolate desktops residing in our beautiful space. 
 
 Join Foulab for the wonderful team-building exercise of getting your hands dirty and making clean. The event will be going on all day so bring your game face and come help out. Maybe enjoy some pizza with everyone after.
+
+***Due to scheduling conflicts with a holiday, this event has been re-scheduled to April 26th.***
 
 <br/>
 
