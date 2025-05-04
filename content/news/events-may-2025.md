@@ -30,7 +30,7 @@ Hosted by **@m00ooo**
 
 <br/>
 
-### Killed by Dice presents: Classic Traveller - Sunday May 18th @ 16:00 - 18:00
+### Killed by Dice presents: Classic Traveller - Sunday May 18th @ 16:00 - 19:00
 
 Blast off into one of the original sci-fi tabletop RPGs. Continue your journey through the stars, and with enough wits and luck, you may even survive character creation. Limited spots available.
 
@@ -54,7 +54,7 @@ Join us for a high-impact alignment session where stakeholders converge to lever
 
 <br/>
 
-### Killed by Dice presents: Pool RPG - Sunday May 25th @ 16:00 - 18:00
+### Killed by Dice presents: Pool RPG - Sunday May 25th @ 16:00 - 19:00
 
  Curious about tabletop RPGs but don’t know where to start? The Pool by James V. West is a minimalist, story-first game perfect for beginners and veterans alike. No complicated rules, just shared imagination, a handful of dice, and a lot of weird narrative choices. Come roll with us!
 
