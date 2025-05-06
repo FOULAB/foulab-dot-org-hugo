@@ -66,6 +66,6 @@ Hosted by **@der_moderne_man**
 
 ### FOULAB PARTY!!11!1 - Saturday May 31st @ 17:00 - 23:00
 
-:wq! your responsibilies and come overclock your vibes - there will be pizza, music, and good times with follow hackers! If you're curious about the lab, this is your sign to show up, hang out, and remind yourself that community is the best kind of infrastructure.
+:wq! your responsibilies and come overclock your vibes - there will be pizza, music, and good times with fellow hackers! If you're curious about the lab, this is your sign to show up, hang out, and remind yourself that community is the best kind of infrastructure.
 
 <br/>
