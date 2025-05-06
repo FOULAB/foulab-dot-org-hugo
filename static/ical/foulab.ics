@@ -1556,4 +1556,75 @@ DESCRIPTION:Project Night
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:506ed155-25c8-41b0-b28c-9d7ebeb7ad71
+DTSTART;TZID="America/New_York":20250506T190000
+DTEND;TZID="America/New_York":20250506T210000
+SUMMARY:Lead 101 and Tenant Organizing workshop
+URL:https://foulab.org
+DESCRIPTION:Lead 101 and Tenant Organizing workshop
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:45c0d87e-c0cc-4ff5-8d59-e84f19b76ca6
+DTSTART;TZID="America/New_York":20250513T190000
+DTEND;TZID="America/New_York":20250513T210000
+SUMMARY:Bare Metal Emulation workshop
+URL:https://foulab.org
+DESCRIPTION:Bare Metal Emulation workshop
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:5faddced-859e-4af7-9122-0ffc204e28eb
+DTSTART;TZID="America/New_York":20250518T160000
+DTEND;TZID="America/New_York":20250518T180000
+SUMMARY:Killed by Dice presents: Classic Traveller
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Classic Traveller
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:4cc7a13e-4bc0-4987-aff8-bfbde2823e87
+DTSTART;TZID="America/New_York":20250519T130000
+DTEND;TZID="America/New_York":20250519T210000
+SUMMARY:MESH DAY with Montreal ATC
+URL:https://foulab.org
+DESCRIPTION:MESH DAY with Montreal ATC
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:74777789-195b-4e1d-b81d-ad951d9ddfa7
+DTSTART;TZID="America/New_York":20250522T130000
+DTEND;TZID="America/New_York":20250522T210000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:ba405b44-b04a-4bf8-9d0a-e8c2c33ad610
+DTSTART;TZID="America/New_York":20250525T160000
+DTEND;TZID="America/New_York":20250525T180000
+SUMMARY:Killed by Dice presents: Pool RPG
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Pool RPG
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250501T141746Z
+UID:efc5bec3-de79-4b6b-a089-c4dda37e8f60
+DTSTART;TZID="America/New_York":20250531T170000
+DTEND;TZID="America/New_York":20250531T230000
+SUMMARY:FOULAB PARTY!!11!1
+URL:https://foulab.org
+DESCRIPTION:FOULAB PARTY!!11!1
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
