@@ -10,9 +10,11 @@ lastmod = "2025-05-06T00:59:05+0000"
 <center><i>Picture credit to <b>chat j'ai pété</b></i></center>
 
 <br/>
+
 April showers bring May... Foulab events! Get ready for a packed month of hands-on workshops, open lab nights, and thrilling activities. If you love spring, you will love it here - we have drawers full of them.
 
 <br/>
+
 
 ### Lead 101 and Tenant Organizing workshop - Tuesday May 6th @ 19:00 - 21:00
 
@@ -48,7 +50,7 @@ For more information check out [mtl-atc.org](https://mtl-atc.org/)
 
 <br/>
 
-### Foulab Monthly Meeting - Thursday May 22th @ 13:00 - 21:00
+### Foulab Monthly Meeting - Thursday May 22th @ 20:00 - 21:30
 
 Join us for a high-impact alignment session where stakeholders converge to leverage synergies, optimize decision pipelines, and deep-dive into actionable governance items. KPIs include community engagement, beer drinking, and sustained operational excellence.  
 
@@ -63,6 +65,7 @@ contact david AT killedbydice.com if you are interested.
 Hosted by **@der_moderne_man**
 
 <br/>
+
 
 ### FOULAB PARTY!!11!1 - Saturday May 31st @ 17:00 - 23:00
 
