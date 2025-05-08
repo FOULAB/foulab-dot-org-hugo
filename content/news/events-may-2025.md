@@ -10,6 +10,7 @@ lastmod = "2025-05-06T00:59:05+0000"
 <center><i>Picture credit to <b>chat j'ai pété</b></i></center>
 
 <br/>
+
 April showers bring May... Foulab events! Get ready for a packed month of hands-on workshops, open lab nights, and thrilling activities. If you love spring, you will love it here - we have drawers full of them.
 
 <br/>
@@ -48,7 +49,7 @@ For more information check out [mtl-atc.org](https://mtl-atc.org/)
 
 <br/>
 
-### Foulab Monthly Meeting - Thursday May 22th @ 13:00 - 21:00
+### Foulab Monthly Meeting - Thursday May 22th @ 20:00 - 22:00
 
 Join us for a high-impact alignment session where stakeholders converge to leverage synergies, optimize decision pipelines, and deep-dive into actionable governance items. KPIs include community engagement, beer drinking, and sustained operational excellence.  
 
@@ -66,6 +67,6 @@ Hosted by **@der_moderne_man**
 
 ### FOULAB PARTY!!11!1 - Saturday May 31st @ 17:00 - 23:00
 
-:wq! your responsibilies and come overclock your vibes - there will be pizza, music, and good times with follow hackers! If you're curious about the lab, this is your sign to show up, hang out, and remind yourself that community is the best kind of infrastructure.
+:wq! your responsibilies and come overclock your vibes - there will be pizza, music, and good times with fellow hackers! If you're curious about the lab, this is your sign to show up, hang out, and remind yourself that community is the best kind of infrastructure.
 
 <br/>
