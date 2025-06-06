@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # Allows manual triggering from the GitHub UI
 
 jobs:
   build:
@@ -52,3 +53,4 @@ jobs:
         with:
           name: screenshot
           path: screenshot.png
+
