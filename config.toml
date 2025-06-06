@@ -7,8 +7,9 @@ enableGitInfo = true
 
 disableKinds = ['taxonomy', 'term']
 
-paginate = 7
-paginatePath = "p"
+[pagination]
+  pagerSize = 7
+  path = "p"
 
 [frontmatter]
 # Let explicit frontmatter override git, in case we edit articles after
@@ -25,3 +26,4 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 [outputs]
   home = ["HTML"]
   section = ["HTML"]
+
