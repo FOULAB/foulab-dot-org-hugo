@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      pull-requests: write
+      contents: write       # Needed to push to gh-pages
+      pull-requests: write  # Needed to post a comment
 
     steps:
       - name: Checkout code
@@ -55,22 +55,25 @@ jobs:
             const page = await browser.newPage();
             await page.setViewport({ width: 1280, height: 800 });
             await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' });
-            await page.screenshot({ path: 'screenshot.png', fullPage: true });
+            await page.screenshot({ path: 'public/pr-screenshot.png', fullPage: true });
             await browser.close();
           })();
           "
 
-      - name: Upload screenshot artifact
-        uses: actions/upload-artifact@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: screenshot
-          path: screenshot.png
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
 
-      - name: Comment on PR with info
+      - name: Comment on PR with screenshot
+        if: github.event.pull_request.number != ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh api repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
-            -f body="🖼️ Screenshot from this PR's Hugo build has been uploaded as an artifact.\
-            \n\nYou can download it from the **Actions tab** under the 'screenshot' artifact for this workflow run."
+          REPO=${{ github.repository }}
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          PAGES_URL="https://${REPO%%/*}.github.io/${REPO##*/}/pr-screenshot.png"
+          gh api repos/$REPO/issues/$PR_NUMBER/comments \
+            -f body="### 🖼️ Screenshot from this PR's Hugo build\n\n![Screenshot]($PAGES_URL)"
 
