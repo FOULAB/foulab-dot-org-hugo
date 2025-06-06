@@ -1,6 +1,9 @@
 name: Build and Screenshot Hugo Site
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
@@ -10,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      pull-requests: write
+      contents: write       # Required for pushing to gh-pages
+      pull-requests: write  # Required for posting PR comments
 
     steps:
       - name: Checkout code
@@ -55,30 +58,30 @@ jobs:
             const page = await browser.newPage();
             await page.setViewport({ width: 1280, height: 800 });
             await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' });
-            await page.screenshot({ path: 'screenshot.png', fullPage: true });
+            await page.screenshot({ path: 'public/pr-screenshot.png', fullPage: true });
             await browser.close();
           })();
           "
 
-      - name: Upload screenshot artifact
-        uses: actions/upload-artifact@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: screenshot
-          path: screenshot.png
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true
 
-      - name: Download screenshot artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: screenshot
-          path: .
-
-      - name: Create PR comment with screenshot
+      - name: Comment on PR with embedded screenshot
+        if: github.event.pull_request.number != ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          IMAGE_BASE64=$(base64 -w 0 screenshot.png)
-          COMMENT_BODY="### 🔍 Screenshot of Hugo site build\n\n![Screenshot](data:image/png;base64,${IMAGE_BASE64})"
+          REPO=${{ github.repository }}
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          USERNAME=${REPO%%/*}
+          REPO_NAME=${REPO##*/}
+          PAGES_URL="https://${USERNAME}.github.io/${REPO_NAME}/pr-screenshot.png"
 
-          gh api repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
-            -f body="$COMMENT_BODY"
+          gh api repos/$REPO/issues/$PR_NUMBER/comments \
+            -f body="### 🖼️ Screenshot of Hugo site build\n\n![Screenshot]($PAGES_URL)"
 
