@@ -1,6 +1,9 @@
 name: Build and Screenshot Hugo Site
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
@@ -10,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # Needed to push to gh-pages
-      pull-requests: write  # Needed to post a comment
+      contents: write       # Required for pushing to gh-pages
+      pull-requests: write  # Required for posting PR comments
 
     steps:
       - name: Checkout code
@@ -65,15 +68,20 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true
 
-      - name: Comment on PR with screenshot
+      - name: Comment on PR with embedded screenshot
         if: github.event.pull_request.number != ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           REPO=${{ github.repository }}
           PR_NUMBER=${{ github.event.pull_request.number }}
-          PAGES_URL="https://${REPO%%/*}.github.io/${REPO##*/}/pr-screenshot.png"
+          USERNAME=${REPO%%/*}
+          REPO_NAME=${REPO##*/}
+          PAGES_URL="https://${USERNAME}.github.io/${REPO_NAME}/pr-screenshot.png"
+
           gh api repos/$REPO/issues/$PR_NUMBER/comments \
-            -f body="### 🖼️ Screenshot from this PR's Hugo build\n\n![Screenshot]($PAGES_URL)"
+            -f body="### 🖼️ Screenshot of Hugo site build\n\n![Screenshot]($PAGES_URL)"
 
