@@ -1,14 +1,17 @@
 name: Build and Screenshot Hugo Site
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-  workflow_dispatch:  # Allows manual triggering from the GitHub UI
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
 
     steps:
       - name: Checkout code
@@ -43,22 +46,39 @@ jobs:
             sleep 1
           done
 
-      - name: Capture screenshot
+      - name: Capture full-page screenshot
         run: |
           node -e "
           const puppeteer = require('puppeteer');
           (async () => {
             const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
             const page = await browser.newPage();
-            await page.goto('http://localhost:8080');
-            await page.screenshot({ path: 'screenshot.png' });
+            await page.setViewport({ width: 1280, height: 800 });
+            await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' });
+            await page.screenshot({ path: 'screenshot.png', fullPage: true });
             await browser.close();
           })();
           "
 
-      - name: Upload screenshot as artifact
+      - name: Upload screenshot artifact
         uses: actions/upload-artifact@v4
         with:
           name: screenshot
           path: screenshot.png
+
+      - name: Download screenshot artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: screenshot
+          path: .
+
+      - name: Create PR comment with screenshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          IMAGE_BASE64=$(base64 -w 0 screenshot.png)
+          COMMENT_BODY="### 🔍 Screenshot of Hugo site build\n\n![Screenshot](data:image/png;base64,${IMAGE_BASE64})"
+
+          gh api repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+            -f body="$COMMENT_BODY"
 
