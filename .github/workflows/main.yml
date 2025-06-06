@@ -1,10 +1,10 @@
 name: Build and Screenshot Hugo Site
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
+    branches:
+      - production
+  push:
     branches:
       - main
   workflow_dispatch:
@@ -13,8 +13,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # Needed to push to production branch
-      pull-requests: write  # Needed to post PR comments
+      contents: write       # For deploying to production branch
+      pull-requests: write  # For commenting on PRs
 
     steps:
       - name: Checkout code
