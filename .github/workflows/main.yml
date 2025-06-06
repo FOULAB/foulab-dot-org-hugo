@@ -66,19 +66,11 @@ jobs:
           name: screenshot
           path: screenshot.png
 
-      - name: Download screenshot artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: screenshot
-          path: .
-
-      - name: Create PR comment with screenshot
+      - name: Comment on PR with info
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          IMAGE_BASE64=$(base64 -w 0 screenshot.png)
-          COMMENT_BODY="### 🔍 Screenshot of Hugo site build\n\n![Screenshot](data:image/png;base64,${IMAGE_BASE64})"
-
           gh api repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
-            -f body="$COMMENT_BODY"
+            -f body="🖼️ Screenshot from this PR's Hugo build has been uploaded as an artifact.\
+            \n\nYou can download it from the **Actions tab** under the 'screenshot' artifact for this workflow run."
 
