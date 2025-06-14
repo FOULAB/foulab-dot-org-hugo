@@ -8,23 +8,28 @@
     <!-- .Pages only includes _index.md files if in the folder and nothing else -->
     {{ if .Params.image }} 
     <!-- checks if the image component exists and does not execute if image does not exists (if user does not upload image it will not be displayed on the front) -->
-        <div class="gallery-item">
-            <img src="{{ .Params.image | relURL }}" height="auto" width="20%">
-            <div class="text-item">
-                {{ with .Params.title }} 
-                    <h3>{{ . }}</h3>
-                {{ end }}
-                <a href="{{ .RelPermalink }}">View the Project</a>
-                {{ with .Params.topic }}
-                    <p>{{ . }}</p>
-                {{ end }}
+        <a href="{{ .RelPermalink }}">
+            <div class="gallery-item">
+                <img src="{{ .Params.image | relURL }}" height="auto" width="20%">
+                <div class="text-item">
+                    {{ with .Params.topic }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+                    {{ with .Params.title }} 
+                        <h3>{{ . }}</h3>
+                    {{ end }}
+                </div>
             </div>
-        </div>
+        </a>
     {{ end }} 
     {{ end }} 
 </div>
 {{ .Content }}
+<!-- correct formatting to insert date-->
+<!-- $ git log --diff-filter=A --follow --format=%aD --reverse content/projects/eigma/fan/index.md | head -1 | cut -c1-17 -->
 {{ end }}
+
+
 
 
 
