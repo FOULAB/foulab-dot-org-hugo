@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
 	  <title>{{ block "title" . }}{{ default .GitInfo.Subject .Title | default "Welcome to Foulab! - foulab.org" }}{{ end }}</title>
@@ -13,6 +13,9 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1124" />
     <meta property="og:image:height" content="1126" />
+
+    <meta name="fediverse:creator" content="@foulab@chaos.social">
+    <link rel="me" href="https://chaos.social/@foulab">
 
     <script type="text/javascript" >
       window.baseRoot = {{ .Site.BaseURL | safeHTML }};
@@ -61,6 +64,9 @@
 	      <img src="{{ .Site.BaseURL }}/img/license_cc_80x15.png" alt="Creative Commons Non-commercial License with Attribution 3.0" />
 	    </a>
 	    <img src="{{ .Site.BaseURL }}/img/madeinquebec_80x15.png" alt="Made in Quebec" title="Made in Quebec" />
+	    <a href="{{ .Site.BaseURL }}" title="FOULAB">
+	      <img src="{{ .Site.BaseURL }}/img/foulab.png" alt="FOULAB Hackerspace" title="FOULAB Hackerspace" />
+	    </a>
 	    
 	    <br />
 	    Except where otherwise noted, content on this site is licensed under a Creative Commons Non-Commercial with Attribution 3.0 License.&nbsp;

@@ -1359,4 +1359,341 @@ DESCRIPTION:Killed by Dice Presents: Three Sixteen V
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+X-EVENTMONTH:FEB2025
+
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:9bcc6768-b28c-478c-bb2c-a19b0a3de25b
+DTSTART;TZID="America/New_York":20250205T190000
+DTEND;TZID="America/New_York":20250205T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:1b711460-ce63-4249-bd5d-319ef4a2ef7e
+DTSTART;TZID="America/New_York":20250213T200000
+DTEND;TZID="America/New_York":20250213T203000
+SUMMARY:Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:f40ba397-6ee4-40ff-bef6-9c299cd9405d
+DTSTART;TZID="America/New_York":20250218T200000
+DTEND;TZID="America/New_York":20250218T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:9aa742a0-1814-4297-93fa-d14f41f6a235
+DTSTART;TZID="America/New_York":20250223T160000
+DTEND;TZID="America/New_York":20250223T190000
+SUMMARY:Killed by Dice Presents: Three Sixteen V
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Three Sixteen V
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250202T202214Z
+UID:2fcb692b-a7ad-41d8-ae9f-56db4cccb20a
+DTSTART;TZID="America/New_York":20250225T200000
+DTEND;TZID="America/New_York":20250225T220000
+SUMMARY:Tabletop Games Night
+URL:https://foulab.org
+DESCRIPTION:Tabletop Games Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+X-EVENTMONTH:MAR2025
+
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:7815dd36-e777-49aa-924f-f9f50bdb2b90
+DTSTART;TZID="America/New_York":20250305T190000
+DTEND;TZID="America/New_York":20250305T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:7bd1eb85-ae27-4f95-a975-e11a71b0f265
+DTSTART;TZID="America/New_York":20250311T200000
+DTEND;TZID="America/New_York":20250311T220000
+SUMMARY:Infrastructure Night
+URL:https://foulab.org
+DESCRIPTION:Infrastructure Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:89167f77-5c1f-42a8-b116-d1c41bdca469
+DTSTART;TZID="America/New_York":20250313T200000
+DTEND;TZID="America/New_York":20250313T220000
+SUMMARY:Gentoo Night
+URL:https://foulab.org
+DESCRIPTION:Gentoo Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:2fe138bc-6f1c-4e35-87cd-d46f72050acb
+DTSTART;TZID="America/New_York":20250318T200000
+DTEND;TZID="America/New_York":20250318T220000
+SUMMARY:Sewing Orientation Workshop Night
+URL:https://foulab.org
+DESCRIPTION:Sewing Orientation Workshop Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:c11e2f29-e93d-4876-b3ce-4bd6cada15b4
+DTSTART;TZID="America/New_York":20250320T200000
+DTEND;TZID="America/New_York":20250320T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:f61c3e56-c5c8-42fa-8366-1d6b4cfc5dee
+DTSTART;TZID="America/New_York":20250323T160000
+DTEND;TZID="America/New_York":20250323T200000
+SUMMARY:Killed by Dice presents: Classic Traveller
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Classic Traveller
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250303T195835Z
+UID:941bf03c-3ec6-44a1-b848-d73b102e10e7
+DTSTART;TZID="America/New_York":20250325T200000
+DTEND;TZID="America/New_York":20250325T220000
+SUMMARY:Tabletop Open Gaming Night
+URL:https://foulab.org
+DESCRIPTION:Tabletop Open Gaming Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250305T020720Z
+UID:571ff4e4-5733-41de-b05e-ece7c4147f43
+DTSTART;TZID="America/New_York":20250329T150000
+DTEND;TZID="America/New_York":20250329T200000
+SUMMARY:The Roombening
+URL:https://foulab.org
+DESCRIPTION:The Roombening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:4fc3e5b4-1e17-4ead-ba03-a7cf33b833b1
+DTSTART;TZID="America/New_York":20250402T190000
+DTEND;TZID="America/New_York":20250402T220000
+SUMMARY:Wednesday Mesh Evening
+URL:https://foulab.org
+DESCRIPTION:Wednesday Mesh Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:ce567925-7c63-45a9-b38c-22c36fecde64
+DTSTART;TZID="America/New_York":20250413T160000
+DTEND;TZID="America/New_York":20250413T190000
+SUMMARY:Killed by Dice Presents: Classic Traveller
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Classic Traveller
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:4ebd67ac-c71f-4454-a2eb-525baa069b63
+DTSTART;TZID="America/New_York":20250417T200000
+DTEND;TZID="America/New_York":20250417T220000
+SUMMARY:Sewing Orientation Workshop Night
+URL:https://foulab.org
+DESCRIPTION:Sewing Orientation Workshop Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:fba07a9d-3069-4d7c-9c06-bbd6c2fcab42
+DTSTART;TZID="America/New_York":20250426T090000
+DTEND;TZID="America/New_York":20250426T180000
+SUMMARY:Spring Cleaning
+URL:https://foulab.org
+DESCRIPTION:Spring Cleaning
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:9ad8c5ef-1768-4072-98cd-cfc6c4e36ea4
+DTSTART;TZID="America/New_York":20250422T200000
+DTEND;TZID="America/New_York":20250422T213000
+SUMMARY:FOULAB Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:FOULAB Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250331T170726Z
+UID:4340be12-8334-4cdc-be56-ab9f6a1dbead
+DTSTART;TZID="America/New_York":20250429T190000
+DTEND;TZID="America/New_York":20250429T220000
+SUMMARY:Project Night
+URL:https://foulab.org
+DESCRIPTION:Project Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:94b225e3-53f6-4fcb-97cd-76563a27568a
+DTSTART;TZID="America/New_York":20250506T190000
+DTEND;TZID="America/New_York":20250506T210000
+SUMMARY:Lead 101 and Tenant Organizing workshop
+URL:https://foulab.org
+DESCRIPTION:Lead 101 and Tenant Organizing workshop
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:0870475f-f383-4722-8158-655ef0cfdd48
+DTSTART;TZID="America/New_York":20250513T190000
+DTEND;TZID="America/New_York":20250513T210000
+SUMMARY:Bare Metal Emulation workshop
+URL:https://foulab.org
+DESCRIPTION:Bare Metal Emulation workshop
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:26279bd0-a080-498c-bf3a-355fa6b244c9
+DTSTART;TZID="America/New_York":20250518T160000
+DTEND;TZID="America/New_York":20250518T190000
+SUMMARY:Killed by Dice presents: Classic Traveller
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Classic Traveller
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:56b70274-c54b-464d-bdc0-efc53d0d09e0
+DTSTART;TZID="America/New_York":20250519T130000
+DTEND;TZID="America/New_York":20250519T210000
+SUMMARY:MESH DAY with Montreal ATC
+URL:https://foulab.org
+DESCRIPTION:MESH DAY with Montreal ATC
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:9d60c947-e8de-4374-99db-068ba6338ba9
+DTSTART;TZID="America/New_York":20250522T200000
+DTEND;TZID="America/New_York":20250522T220000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:a0350a8b-a251-4b29-a74f-b6aec773ae1c
+DTSTART;TZID="America/New_York":20250525T160000
+DTEND;TZID="America/New_York":20250525T190000
+SUMMARY:Killed by Dice presents: Pool RPG
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Pool RPG
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250508T144530Z
+UID:a82cdd88-1354-47a2-b0a6-1012237e422f
+DTSTART;TZID="America/New_York":20250531T170000
+DTEND;TZID="America/New_York":20250531T230000
+SUMMARY:FOULAB PARTY!!11!1
+URL:https://foulab.org
+DESCRIPTION:FOULAB PARTY!!11!1
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:dd40840c-9fbc-4de4-856b-0be1f7a00b31
+DTSTART;TZID="America/New_York":20250603T183000
+DTEND;TZID="America/New_York":20250603T230000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:562f1aa7-2483-44dd-a5c1-87c6a7d202b5
+DTSTART;TZID="America/New_York":20250604T190000
+DTEND;TZID="America/New_York":20250604T220000
+SUMMARY:Mesh Night
+URL:https://foulab.org
+DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:3e7f0d2c-928b-495e-b795-3bdf8333d70c
+DTSTART;TZID="America/New_York":20250610T200000
+DTEND;TZID="America/New_York":20250610T203000
+SUMMARY:Wiki Night
+URL:https://foulab.org
+DESCRIPTION:Wiki Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:4818a7a2-2d34-4617-87cd-d53a518ff52e
+DTSTART;TZID="America/New_York":20250617T200000
+DTEND;TZID="America/New_York":20250617T220000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:dfc57b1c-8b9d-4679-b14f-d9771ab294f0
+DTSTART;TZID="America/New_York":20250622T160000
+DTEND;TZID="America/New_York":20250622T190000
+SUMMARY:Killed by Dice presents: Classic Traveller
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Classic Traveller
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:4365d931-4d4f-43f4-86fe-93d2077d6046
+DTSTART;TZID="America/New_York":20250628T150000
+DTEND;TZID="America/New_York":20250628T200000
+SUMMARY:Wearable Tech Afternoon
+URL:https://foulab.org
+DESCRIPTION:Wearable Tech Afternoon
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250530T182621Z
+UID:5794567f-f8b1-4ba2-a05b-550f9342beae
+DTSTART;TZID="America/New_York":20250629T160000
+DTEND;TZID="America/New_York":20250629T190000
+SUMMARY:Killed by Dice presents: Fantasy For Real
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice presents: Fantasy For Real
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
 END:VCALENDAR
