@@ -2,6 +2,7 @@
 title = "Home Made Screen Holder"
 topic = "EINSTEIN"
 headline = "Home Made Screen Holder"
+image = "media/image/projects/EiNSTeiN_/Home-Made-Screen-Holder/HMSH-1.JPG"
 +++
 
 This project is a variant of the [Home Made Lamp] (/projects/einstein_/home-made-lamp/) project.

@@ -2,6 +2,7 @@
 title = "Tweletype"
 topic = "FX"
 headline = "Tweletype"
+image = "media/image/projects/f^x/Tweletype/TI745-1.JPG"
 +++
 
 The tweletype is a hardware terminal with a keyboard for input and a printer for output. It prints on one long continuous roll of paper.

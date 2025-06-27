@@ -2,6 +2,7 @@
 title = "Tablet Computer"
 topic = "EINSTEIN"
 headline = "Tablet Computer"
+image = "media/image/projects/EiNSTeiN_/Tablet-Computer/TC-1.JPG"
 +++
 
 

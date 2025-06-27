@@ -2,6 +2,8 @@
 title = "Heater Control"
 topic = "strawdog"
 headline = "Heater Control"
+image = "media/image/projects/strawdog/heater-control/1.jpg"
+
 +++
 
 
