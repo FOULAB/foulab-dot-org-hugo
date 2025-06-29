@@ -1696,4 +1696,44 @@ URL:https://foulab.org
 DESCRIPTION:Killed by Dice presents: Fantasy For Real
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250628T200627Z
+UID:8d12d857-3555-4181-af1c-7bb63ef99309
+DTSTART;TZID="America/New_York":20250707T183000
+DTEND;TZID="America/New_York":20250707T230000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250628T200627Z
+UID:7748c731-54ae-4862-9ec2-6390e3abf7a7
+DTSTART;TZID="America/New_York":20250712T140000
+DTEND;TZID="America/New_York":20250712T160000
+SUMMARY:Junk Swap
+URL:https://foulab.org
+DESCRIPTION:Junk Swap
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250628T200627Z
+UID:bae5101a-eeab-4f25-aac3-96dff3e46687
+DTSTART;TZID="America/New_York":20250717T193000
+DTEND;TZID="America/New_York":20250717T213000
+SUMMARY:Project Night
+URL:https://foulab.org
+DESCRIPTION:Project Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250628T200627Z
+UID:c244e59d-a497-43e1-83ae-27e08bede411
+DTSTART;TZID="America/New_York":20250726T130000
+DTEND;TZID="America/New_York":20250726T150000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
 END:VCALENDAR
