@@ -15,7 +15,7 @@ planned.
 
 <br/>
 
-### No Net Night - Tuesday July 7 @ 18:30 - 23:00
+### No Net Night - Tuesday July 8 @ 18:30 - 23:00
 
 Worried that wireless transmissions are influencing your thoughts?
 
