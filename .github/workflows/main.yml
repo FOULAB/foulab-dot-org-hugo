@@ -1,20 +1,13 @@
-name: Build and Screenshot Hugo Site
+name: Capture Screenshot on PR
 
 on:
-  pull_request:
-    branches:
-      - production
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  workflow_dispatch:  # Allows manual trigger from the Actions tab
+  pull_request:       # Automatically runs on PRs
+    types: [opened, synchronize, reopened]
 
 jobs:
-  build:
+  screenshot:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write       # For deploying to production branch
-      pull-requests: write  # For commenting on PRs
 
     steps:
       - name: Checkout code
@@ -31,39 +24,48 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install Puppeteer
-        run: npm install puppeteer
+      - name: Install Puppeteer and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm-dev
+          npm install puppeteer
+
+      - name: Determine modified content file
+        id: changed_file
+        run: |
+          FILE=$(git diff --name-only origin/production...HEAD | grep '^content/' | head -n 1)
+          echo "Modified content file: $FILE"
+          echo "file=$FILE" >> $GITHUB_OUTPUT
 
       - name: Build Hugo site
         run: hugo --minify
 
       - name: Start HTTP server
-        run: npx http-server ./public -p 8080 &
-        continue-on-error: true
-
-      - name: Wait for site to be ready
         run: |
-          for i in {1..10}; do
-            curl --silent --head http://localhost:8080 && break
-            echo "Waiting for server..."
-            sleep 1
-          done
+          npx http-server ./public -p 8080 &
+          sleep 5
 
-      - name: Capture full-page screenshot
+      - name: Capture screenshot of modified page
+        if: steps.changed_file.outputs.file != ''
+        env:
+          MODIFIED_FILE: ${{ steps.changed_file.outputs.file }}
         run: |
           node -e "
           const puppeteer = require('puppeteer');
+          const path = process.env.MODIFIED_FILE.replace(/^content/, '').replace(/\.md$/, '/');
           (async () => {
             const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
             const page = await browser.newPage();
             await page.setViewport({ width: 1280, height: 800 });
-            await page.goto('http://localhost:8080', { waitUntil: 'networkidle0' });
+            const url = 'http://localhost:8080' + path;
+            console.log('Visiting: ' + url);
+            await page.goto(url, { waitUntil: 'networkidle0' });
             await page.screenshot({ path: 'public/pr-screenshot.png', fullPage: true });
             await browser.close();
-          })();
-          "
+          })();"
 
       - name: Deploy to GitHub Pages (production branch)
+        if: steps.changed_file.outputs.file != ''
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -83,5 +85,5 @@ jobs:
           PAGES_URL="https://${USERNAME}.github.io/${REPO_NAME}/pr-screenshot.png"
 
           gh api repos/$REPO/issues/$PR_NUMBER/comments \
-            -f body="### 🖼️ Screenshot of Hugo site build\n\n![Screenshot]($PAGES_URL)"
+            -f body="### 🖼️ Screenshot of modified page\n\n![Screenshot]($PAGES_URL)"
 
