@@ -1736,4 +1736,34 @@ URL:https://foulab.org
 DESCRIPTION:Foulab Monthly Meeting
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250801T015828Z
+UID:2273b7e4-8689-4748-82a2-c4961a04a300
+DTSTART;TZID="America/New_York":20250805T183000
+DTEND;TZID="America/New_York":20250805T233000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250801T015828Z
+UID:ac94dc0f-7dfa-48e6-8de7-c362b591a365
+DTSTART;TZID="America/New_York":20250812T193000
+DTEND;TZID="America/New_York":20250812T213000
+SUMMARY:Foulab Monthly Meeting and Election Kickoff
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting and Election Kickoff 
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250801T015828Z
+UID:293af1da-f11f-47c9-a182-390fef659eb2
+DTSTART;TZID="America/New_York":20250830T130000
+DTEND;TZID="America/New_York":20250830T180000
+SUMMARY:ESPHome workshop
+URL:https://foulab.org
+DESCRIPTION:ESPHome workshop
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
 END:VCALENDAR
