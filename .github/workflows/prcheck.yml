@@ -1,0 +1,273 @@
+name: Hugo Site Screenshot & Spell Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  screenshot-and-spellcheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: |
+          npm install -g cspell
+          npm init -y
+          npm install puppeteer
+          
+          cat > cspell.json << 'EOF'
+          {
+            "version": "0.2",
+            "language": "en",
+            "words": [
+              "Foulab",
+              "Foulab's",
+              "foulab",
+              "lastmod",
+              "doomscrolling",
+              "Recyborg"
+            ],
+            "flagWords": [],
+            "ignorePaths": [
+              "node_modules/**",
+              "public/**",
+              "resources/**",
+              "static/**",
+              "themes/**",
+              "content/about.md"
+            ]
+          }
+          EOF
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      
+      - name: Build Hugo site (skip on template errors)
+        id: hugo-build
+        continue-on-error: true
+        run: |
+          if hugo --minify; then
+            echo "build_success=true" >> $GITHUB_OUTPUT
+          else
+            echo "build_success=false" >> $GITHUB_OUTPUT
+            echo "Hugo build failed, will try to screenshot the live site instead"
+          fi
+      
+      - name: Start local server (if build succeeded)
+        if: steps.hugo-build.outputs.build_success == 'true'
+        run: |
+          cd public
+          python3 -m http.server 8080 &
+          sleep 5
+          echo "LOCAL_URL=http://localhost:8080" >> $GITHUB_ENV
+      
+      - name: Use live site if local build failed
+        if: steps.hugo-build.outputs.build_success != 'true'
+        run: |
+          echo "LOCAL_URL=https://foulab.org" >> $GITHUB_ENV
+      
+      - name: Take screenshot with Puppeteer
+        run: |
+          cat > screenshot.js << 'EOF'
+          const puppeteer = require('puppeteer');
+          
+          (async () => {
+            const browser = await puppeteer.launch({
+              headless: true,
+              args: ['--no-sandbox', '--disable-setuid-sandbox']
+            });
+            
+            const page = await browser.newPage();
+            await page.setViewport({ width: 1920, height: 1080 });
+            
+            try {
+              await page.goto(process.env.LOCAL_URL, { 
+                waitUntil: 'networkidle0',
+                timeout: 30000 
+              });
+              
+              await page.screenshot({ 
+                path: 'screenshot.png',
+                fullPage: true
+              });
+              
+              console.log('Screenshot taken successfully');
+            } catch (error) {
+              console.error('Screenshot failed:', error);
+              process.exit(1);
+            } finally {
+              await browser.close();
+            }
+          })();
+          EOF
+          
+          node screenshot.js
+      
+      - name: Upload screenshot artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hugo-site-screenshot
+          path: screenshot.png
+      
+      - name: Get all changed files in PR
+        id: changed-files
+        run: |
+          # Get changed files
+          git diff --name-only origin/${{ github.base_ref }}...HEAD > changed_files.txt
+          echo "Changed files in entire PR:"
+          cat changed_files.txt
+      
+      - name: Spell check changed files
+        id: spellcheck
+        run: |
+          echo "# 📝 Spell Check Results" > spellcheck_results.md
+          echo "" >> spellcheck_results.md
+          
+          spell_errors=0
+          
+          while IFS= read -r file; do
+            if [[ -f "$file" && "$file" =~ \.(md|html|txt|content)$ ]]; then
+              echo "Checking $file..."
+              if cspell "$file" --config cspell.json --no-progress --no-summary > temp_spell.txt 2>&1; then
+                echo "✅ $file - No spelling errors" >> spellcheck_results.md
+              else
+                echo "❌ $file - Spelling errors found:" >> spellcheck_results.md
+                echo "\`\`\`" >> spellcheck_results.md
+                cat temp_spell.txt >> spellcheck_results.md
+                echo "\`\`\`" >> spellcheck_results.md
+                echo "" >> spellcheck_results.md
+                spell_errors=$((spell_errors + 1))
+              fi
+            fi
+          done < changed_files.txt
+          
+          if [ $spell_errors -eq 0 ]; then
+            echo "🎉 No spelling errors found in any changed files!" >> spellcheck_results.md
+          fi
+          
+          echo "spell_errors=$spell_errors" >> $GITHUB_OUTPUT
+      
+      - name: Debug workflow context
+        run: |
+          echo "Event name: ${{ github.event_name }}"
+          echo "Action: ${{ github.event.action }}"
+          echo "PR number: ${{ github.event.number }}"
+          echo "Base ref: ${{ github.base_ref }}"
+          echo "Head ref: ${{ github.head_ref }}"
+          echo "Repository: ${{ github.repository }}"
+          echo "Run ID: ${{ github.run_id }}"
+      
+      - name: Get artifact download URL
+        id: get-artifact-url
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              console.log('Getting workflow run artifacts...');
+              const { data: artifacts } = await github.rest.actions.listWorkflowRunArtifacts({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: context.runId
+              });
+              
+              console.log('Found artifacts:', artifacts.artifacts.length);
+              
+              const screenshotArtifact = artifacts.artifacts.find(artifact => 
+                artifact.name === 'hugo-site-screenshot'
+              );
+              
+              if (screenshotArtifact) {
+                console.log('Found screenshot artifact, ID:', screenshotArtifact.id);
+                const artifactUrl = `https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${screenshotArtifact.id}`;
+                core.setOutput('artifact_url', artifactUrl);
+                return artifactUrl;
+              } else {
+                console.log('Screenshot artifact not found');
+                core.setOutput('artifact_url', '');
+                return '';
+              }
+              
+            } catch (error) {
+              console.error('Error getting artifact URL:', error);
+              core.setOutput('artifact_url', '');
+              return '';
+            }
+      
+      - name: Create PR comment
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            
+            console.log('=== DEBUG INFO ===');
+            console.log('Event name:', context.eventName);
+            console.log('Action:', context.payload.action);
+            console.log('PR number:', context.issue.number);
+            console.log('Repository:', context.repo.owner + '/' + context.repo.repo);
+            console.log('==================');
+            
+            const spellCheckResults = fs.readFileSync('spellcheck_results.md', 'utf8');
+            const buildSuccess = '${{ steps.hugo-build.outputs.build_success }}' === 'true';
+            const artifactUrl = '${{ steps.get-artifact-url.outputs.artifact_url }}';
+            
+            let commentBody = `## 🚀 Hugo Site Preview & Spell Check Results\n\n`;
+            
+            commentBody += `### 📸 Site Screenshot\n`;
+            
+            if (artifactUrl) {
+              commentBody += `[📥 Download Screenshot](${artifactUrl})\n\n`;
+            } else {
+              commentBody += `[📥 Download Screenshot](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})\n\n`;
+            }
+            
+            if (buildSuccess) {
+              commentBody += `*Screenshot of PR build taken on ${new Date().toDateString()}*\n\n`;
+            } else {
+              commentBody += `*⚠️ Screenshot taken from live site (foulab.org)*\n\n`;
+            }
+            
+            commentBody += spellCheckResults;
+            
+            commentBody += `\n---\n`;
+            commentBody += `*Generated by GitHub Actions on ${new Date().toISOString()}*\n`;
+            commentBody += `*Event: ${{ github.event_name }} (${{ github.event.action }})*\n`;
+            commentBody += `*Commit: ${{ github.sha }}*\n`;
+            commentBody += `*Run: #${{ github.run_number }}*\n`;
+            commentBody += `[View full workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})`;
+            
+            try {
+              console.log('Creating new comment...');
+              const result = await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: commentBody
+              });
+              console.log('Comment created successfully, URL:', result.data.html_url);
+            } catch (error) {
+              console.error('Error creating comment:', error);
+              console.error('Error details:', error.response?.data || error.message);
+            }
+      
+      - name: Report spell check results
+        if: steps.spellcheck.outputs.spell_errors != '0'
+        run: |
+          echo "⚠️ Found ${{ steps.spellcheck.outputs.spell_errors }} spelling errors"
