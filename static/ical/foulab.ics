@@ -1736,6 +1736,7 @@ URL:https://foulab.org
 DESCRIPTION:Foulab Monthly Meeting
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
+
 BEGIN:VEVENT
 DTSTAMP:20250804T042703Z
 UID:484d57a7-f6a6-483e-aa2c-f4316e47efe8
