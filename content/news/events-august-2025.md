@@ -11,7 +11,7 @@ lastmod = "2025-08-04"
 
 <br/>
 
-August already? Time sure flies when you are having FOULAB. Let's have more - here is how to do it.
+August already? Time sure flies when you are having FOULAB. Let's have more - here is how to do it:
 
 ### No Net Night - Tuesday August 5th @ 18:30 - 23:30
 
