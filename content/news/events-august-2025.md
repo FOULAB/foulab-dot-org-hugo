@@ -2,12 +2,12 @@
 headline = "ARTICLE"
 title = "Foulab Events - August 2025"
 author_name = "tlot"
-lastmod = "2025-08-04" 
+lastmod = "2025-08-26" 
 +++
 
 {{< centered-image src="events-august-2025.png" width="384">}}
 
-<center><i>Credit zero-eks-five-cee</i></center>
+<center><i>Credit 0x5c</i></center>
 
 <br/>
 
