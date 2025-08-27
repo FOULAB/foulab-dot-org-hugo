@@ -1594,6 +1594,7 @@ URL:https://foulab.org
 DESCRIPTION:No Net Night
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
+
 BEGIN:VEVENT
 DTSTAMP:20250804T042703Z
 UID:6971467f-69e2-48d1-9e37-cc3608d5b4b9
@@ -1604,6 +1605,7 @@ URL:https://foulab.org
 DESCRIPTION:Foulab Monthly Meeting and Election Kickoff
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
+
 BEGIN:VEVENT
 DTSTAMP:20250804T042703Z
 UID:00bf1bf9-3e79-4668-9b10-fb0c3c94a217
@@ -1614,5 +1616,98 @@ URL:https://foulab.org
 DESCRIPTION:ESPHome workshop
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
-END:VCALENDAR
 
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20250901T190000
+DTEND;TZID=America/New_York:20250901T233000
+RRULE:FREQ=WEEKLY;WKST=SU;BYDAY=MO
+DTSTAMP:20250901T000000Z
+UID:b5e2532b-6be9-4fc9-8ccd-d4c7415f58a9
+CREATED:20250901T000000Z
+DESCRIPTION:Workshop Night
+LAST-MODIFIED:20250901T000000Z
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Workshop Night
+URL:https://foulab.org/about/
+TRANSP:OPAQUE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250827T014616Z
+UID:c9da8f67-8606-441c-ae46-9da2fbafcc2a
+DTSTART;TZID="America/New_York":20250903T190000
+DTEND;TZID="America/New_York":20250903T220000
+SUMMARY:Mesh Night
+URL:https://foulab.org
+DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250827T014616Z
+UID:7c46860f-0dbe-409e-9a4f-0db85414b9c9
+DTSTART;TZID="America/New_York":20250909T183000
+DTEND;TZID="America/New_York":20250909T233000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250827T014616Z
+UID:cf170291-90db-48ce-8ed8-9ca967c7d535
+DTSTART;TZID="America/New_York":20250916T200000
+DTEND;TZID="America/New_York":20250916T220000
+SUMMARY:Hackers 30th Anniversary Celebration
+URL:https://foulab.org
+DESCRIPTION:Hackers 30th Anniversary Celebration
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250827T014616Z
+UID:ddfa82b1-a524-412c-8fee-4c1abc70973a
+DTSTART;TZID="America/New_York":20250917T190000
+DTEND;TZID="America/New_York":20250917T220000
+SUMMARY:Home Assistant Night
+URL:https://foulab.org
+DESCRIPTION:Home Assistant Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250827T014616Z
+UID:5c9b9231-c799-4dec-ad25-61dcb6620c57
+DTSTART;TZID="America/New_York":20250923T200000
+DTEND;TZID="America/New_York":20250923T213000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250828T042310Z
+UID:4928e1db-9abd-4fa9-a521-684d881e6d6b
+DTSTART;TZID="America/New_York":20250924T190000
+DTEND;TZID="America/New_York":20250924T223000
+SUMMARY:Fediverse Night
+URL:https://foulab.org
+DESCRIPTION:Fediverse Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250828T042310Z
+UID:64218057-76e8-4ca9-962d-a2900349a74a
+DTSTART;TZID="America/New_York":20250928T160000
+DTEND;TZID="America/New_York":20250928T190000
+SUMMARY:Killed by Dice Presents: Fantasy for Real
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Fantasy for Real
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+END:VCALENDAR
