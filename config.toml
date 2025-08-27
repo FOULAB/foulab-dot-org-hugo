@@ -9,6 +9,10 @@ disableKinds = ['taxonomy', 'term']
 
 paginate = 7
 paginatePath = "p"
+# on modern hugo, comment out the above and uncomment the below
+# [pagination]
+#   pagerSize = 7
+#   path = "p"
 
 [frontmatter]
 # Let explicit frontmatter override git, in case we edit articles after
