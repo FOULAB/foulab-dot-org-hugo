@@ -74,3 +74,17 @@ der_moderne_man will be hosting the game at Foulab on Sunday, September 28, 2025
 Beginners are welcome and all materials necessary for play will be provided.
 
 Please contact `david AT killedbydice.com` to reserve a spot.
+
+### National Day for Truth and Reconciliation Fundraising - Tuesday September 30th @ 18:30 - 23:00
+
+Foulab recognizes National Day for Truth and Reconciliation. In honor of
+this day, we will be raising awareness and funds starting on 
+September 30th. To this effect, we will be pressing buttons to spread
+the word -- people are invited to make a donation in exchange for a button.
+We will keep the donations going until October 7th. All donations will
+go to the [Native Friendship Centre of Montreal](https://www.nfcm.org/).
+
+More information about the National Day for Truth and Reconciliation
+can be found at the [National Centre for Truth and Reconciliation](https://nctr.ca/).
+
+

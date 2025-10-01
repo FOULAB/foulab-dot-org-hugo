@@ -1710,4 +1710,94 @@ URL:https://foulab.org
 DESCRIPTION:Killed by Dice Presents: Fantasy for Real
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
+
+
+BEGIN:VEVENT
+DTSTAMP:20250930T003451Z
+UID:9929d474-dac3-414e-9ccf-ef395489a737
+DTSTART;TZID="America/New_York":20250930T183000
+DTEND;TZID="America/New_York":20250930T230000
+SUMMARY:National Day for Truth and Reconciliation Fundraising
+URL:https://foulab.org
+DESCRIPTION:National Day for Truth and Reconciliation Fundraising
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T013142Z
+UID:ae88eb2e-bcb6-4721-9229-02b7c218861f
+DTSTART;TZID="America/New_York":20251001T190000
+DTEND;TZID="America/New_York":20251001T220000
+SUMMARY:Mesh Night
+URL:https://foulab.org
+DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T013142Z
+UID:e319c64d-ead2-4adf-98ba-8e2ac443ee29
+DTSTART;TZID="America/New_York":20251015T190000
+DTEND;TZID="America/New_York":20251015T220000
+SUMMARY:Home Assistant Night
+URL:https://foulab.org
+DESCRIPTION:Home Assistant Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T013142Z
+UID:1157aa5c-0971-4904-9481-412bea79685b
+DTSTART;TZID="America/New_York":20251019T160000
+DTEND;TZID="America/New_York":20251019T190000
+SUMMARY:Killed By Dice Presents: Fantasy for Real
+URL:https://foulab.org
+DESCRIPTION:Killed By Dice Presents: Fantasy for Real
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T152122Z
+UID:d6b3b9eb-92ef-450f-b000-2fd3f415c4dd
+DTSTART;TZID="America/New_York":20251021T200000
+DTEND;TZID="America/New_York":20251021T210000
+SUMMARY:Hacking Markets: Games of Chance
+URL:https://foulab.org
+DESCRIPTION:Hacking Markets: Games of Chance
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T013142Z
+UID:1af2ba22-2437-4be5-b2c7-2b2963061a15
+DTSTART;TZID="America/New_York":20251028T200000
+DTEND;TZID="America/New_York":20251028T213000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T013142Z
+UID:d1244c53-ee91-481a-aa51-957becd7ef56
+DTSTART;TZID="America/New_York":20251029T190000
+DTEND;TZID="America/New_York":20251029T223000
+SUMMARY:Fediverse Night
+URL:https://foulab.org
+DESCRIPTION:Fediverse Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20250930T013142Z
+UID:2583f6e2-74fb-420d-a498-59be79c8b8d1
+DTSTART;TZID="America/New_York":20251030T183000
+DTEND;TZID="America/New_York":20251030T230000
+SUMMARY:Haunted No Net Night
+URL:https://foulab.org
+DESCRIPTION:Haunted No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
