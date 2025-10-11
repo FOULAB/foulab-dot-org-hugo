@@ -1741,7 +1741,7 @@ DTSTART;TZID="America/New_York":20251016T190000
 DTEND;TZID="America/New_York":20251016T223000
 SUMMARY:SPVM Surveilance Discussion
 URL:https://foulab.org
-DESCRIPTION:SPVM Surveilance Discussion
+DESCRIPTION:SPVM Surveillance Discussion
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
