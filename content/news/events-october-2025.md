@@ -44,6 +44,8 @@ Wednesday of each month.
 Foulab is hosting an Afterparty for ATC, following anintroductory
 talk about Foulab at the convergence.
 
+<br/>
+
 ### SPVM Surveilance Discussion - Thursday October 16th @ 19:00 - 19:84
 
 We urgently have to take action against the plans of SPVM to employ
