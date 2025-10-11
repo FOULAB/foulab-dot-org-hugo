@@ -51,7 +51,7 @@ We urgently have to take action against the [plans](https://spvm.qc.ca/en/Commun
 ### Home Assistant Night - Wednesday October 15th @ 19:00 - 22:00
 
 Come and learn about and tinker with Home Assistant and other home
-automation hn. 
+automation technologies. 
 
 These nights are hosted each month on the third Wednesday of the 
 month.
