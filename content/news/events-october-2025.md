@@ -39,7 +39,7 @@ Wednesday of each month.
 
 <br/>
 
-### SPVM Surveilance Discussion - Thursday October 16th @ 19:00 - 19:84
+### SPVM Surveillance Discussion - Thursday October 16th @ 19:00 - 19:84
 
 We urgently have to take action against the [plans](https://spvm.qc.ca/en/Communiques/Details/16095) of SPVM to employ
 [US American AI Surveilance Software](https://www.eff.org/deeplinks/2020/11/video-analytics-user-manuals-are-guide-dystopia) within the next few weeks.
