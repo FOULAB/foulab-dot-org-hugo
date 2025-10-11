@@ -41,8 +41,8 @@ Wednesday of each month.
 
 ### SPVM Surveilance Discussion - Thursday October 16th @ 19:00 - 19:84
 
-We urgently have to take action against the plans of SPVM to employ
-US American AI Surveilance Software in the next two weeks.
+We urgently have to take action against the [plans](https://spvm.qc.ca/en/Communiques/Details/16095) of SPVM to employ
+[US American AI Surveilance Software](https://www.eff.org/deeplinks/2020/11/video-analytics-user-manuals-are-guide-dystopia) within the next few weeks.
 
 *Hosted by adouglas89 & moti*
 
@@ -51,7 +51,7 @@ US American AI Surveilance Software in the next two weeks.
 ### Home Assistant Night - Wednesday October 15th @ 19:00 - 22:00
 
 Come and learn about and tinker with Home Assistant and other home
-automation technologies. 
+automation hn. 
 
 These nights are hosted each month on the third Wednesday of the 
 month.
