@@ -41,7 +41,7 @@ Wednesday of each month.
 
 ### Anarchist Tech Convergence Afterparty - Sunday October 12th @ 19:00 - 23:00
 
-Foulab is hosting an Afterparty for ATC, following anintroductory
+Foulab is hosting an Afterparty for [ATC](https://mtl-atc.org), following anintroductory
 talk about Foulab at the convergence.
 
 <br/>
