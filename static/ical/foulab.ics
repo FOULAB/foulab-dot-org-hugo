@@ -1735,6 +1735,17 @@ LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
 BEGIN:VEVENT
+DTSTAMP:20251011T205827Z
+UID:f90a0d9e-b1c8-4b17-b328-d1c9d5588a35
+DTSTART;TZID="America/New_York":20251012T190000
+DTEND;TZID="America/New_York":20251012T230000
+SUMMARY:Anarchist Tech Convergence Afterparty
+URL:https://foulab.org
+DESCRIPTION:Anarchist Tech Convergence Afterparty
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
 DTSTAMP:20251011T201056Z
 UID:4a9afbeb-b392-49bd-bc26-00213ee5a02d
 DTSTART;TZID="America/New_York":20251016T190000

@@ -39,6 +39,13 @@ Wednesday of each month.
 
 <br/>
 
+### Anarchist Tech Convergence Afterparty - Sunday October 12th @ 19:00 - 23:00
+
+Foulab is hosting an Afterparty for [ATC](https://mtl-atc.org), following an introductory
+talk about Foulab at the convergence.
+
+<br/>
+
 ### SPVM Surveillance Discussion - Thursday October 16th @ 19:00 - 19:84
 
 We urgently have to take action against the [plans](https://spvm.qc.ca/en/Communiques/Details/16095) of SPVM to employ
