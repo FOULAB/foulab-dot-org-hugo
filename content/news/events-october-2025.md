@@ -46,15 +46,6 @@ talk about Foulab at the convergence.
 
 <br/>
 
-### SPVM Surveilance Discussion - Thursday October 16th @ 19:00 - 19:84
-
-We urgently have to take action against the plans of SPVM to employ
-US American AI Surveilance Software in the next two weeks.
-
-*Hosted by adouglas89 & moti*
-
-<br/>
-
 ### Home Assistant Night - Wednesday October 15th @ 19:00 - 22:00
 
 Come and learn about and tinker with Home Assistant and other home
