@@ -41,12 +41,12 @@ Wednesday of each month.
 
 ### Anarchist Tech Convergence Afterparty - Sunday October 12th @ 19:00 - 23:00
 
-Foulab is hosting an Afterparty for [ATC](https://mtl-atc.org), following an introductory
-talk about Foulab at the convergence. The party is happening at Foulab.
+Foulab is hosting an Afterparty for [ATC](https://mtl-atc.org), following anintroductory
+talk about Foulab at the convergence.
 
 <br/>
 
-### SPVM Surveillance Discussion - Thursday October 16th @ 19:00 - 19:84
+### SPVM Surveilance Discussion - Thursday October 16th @ 19:00 - 19:84
 
 We urgently have to take action against the [plans](https://spvm.qc.ca/en/Communiques/Details/16095) of SPVM to employ
 [US American AI Surveilance Software](https://www.eff.org/deeplinks/2020/11/video-analytics-user-manuals-are-guide-dystopia) within the next few weeks.
@@ -58,7 +58,7 @@ We urgently have to take action against the [plans](https://spvm.qc.ca/en/Commun
 ### Home Assistant Night - Wednesday October 15th @ 19:00 - 22:00
 
 Come and learn about and tinker with Home Assistant and other home
-automation technologies. 
+automation hn. 
 
 These nights are hosted each month on the third Wednesday of the 
 month.
