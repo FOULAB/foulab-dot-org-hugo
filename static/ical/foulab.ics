@@ -64,7 +64,7 @@ DTSTAMP:20161004T145730Z
 UID:eejp8kqvlmichrqjb9f743qkno
 CREATED:20161003T042553Z
 DESCRIPTION:Costumes encouraged\, 5$ recomended donation.  Public domain ho
- rror movies\, rad music\, candy\, and ethenol. 
+ rror movies\, rad music\, candy\, and ethenol.
 LAST-MODIFIED:20161003T042553Z
 LOCATION:
 SEQUENCE:0
@@ -1731,6 +1731,17 @@ DTEND;TZID="America/New_York":20251001T220000
 SUMMARY:Mesh Night
 URL:https://foulab.org
 DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20251011T201056Z
+UID:4a9afbeb-b392-49bd-bc26-00213ee5a02d
+DTSTART;TZID="America/New_York":20251016T190000
+DTEND;TZID="America/New_York":20251016T223000
+SUMMARY:SPVM Surveillance Discussion
+URL:https://foulab.org
+DESCRIPTION:SPVM Surveillance Discussion
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
