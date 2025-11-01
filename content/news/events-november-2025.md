@@ -85,7 +85,7 @@ Hosted by der_moderne_man
 
 <br/>
 
-### Foulab Monthly Meeting - Thursday November 25th @ 20:00 - 21:30
+### Foulab Monthly Meeting - Tuesday November 25th @ 20:00 - 21:30
 
 Foulab meetings are where we gather to discuss Foulab business,
 future plans, and provide updates on ongoing projects. 
