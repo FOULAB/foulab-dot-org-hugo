@@ -31,7 +31,7 @@ We are taking action against the plans of SPVM to employ US American AI Surveila
 
 <br/>
 
-### Hacking Markets: Games of Chance (PART 2) - Tuesday November 11th @ 20:00 - 21:00
+### Hacking Markets: Games of Chance (PART 2) - Thursday November 13th @ 20:00 - 21:00
 
 The ultimate part of a two-part series on market mechanics, "Hacking Markets:
 Games of Chance". The presentation will explore mathematical analysis of market
