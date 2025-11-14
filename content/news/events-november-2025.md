@@ -111,7 +111,7 @@ This is a recurring thing, hosted on the last Wednesday of each month.
 
 <br/>
 
-### Project Night - Thursday November 27th @ 19:30 - 22:00
+### Project Night - Friday November 28th @ 19:30 - 22:00
 
 Project Night returns. On this night, the Foulab community will
 gather to present projects that we've been working on. 
