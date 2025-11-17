@@ -45,6 +45,12 @@ We were also featured in a <a href="https://www.tiktok.com/@radpointca/video/734
 
 <br/>
 
+Check out also the movie <a href="https://youtu.be/NKEWNABcaZY?t=1811" target="_blank"><i>HAK_MTL</i> (2019) at ~30 minute mark</a> about Foulab, and related projects like Subgraph, Peerio and Réseau Libre.
+
+{{< youtube id=NKEWNABcaZY start=1811 >}}
+
+<br/>
+
 Since the early 2000s, then the scene has expanded and we've seen various Fablabs/Makerspaces open in the city (Echo Fab, Helios, iMusée's Fablab Inc.).
 While opinions differ and definitions are not set in stone, the two differ slightly in that Hackerspaces tend to be more community/members oriented and subversive, while the other tends to run more like coworking spaces. It's a complex topic that is the subject of many discussions. You can read about it more in this dissertation: Peer Production of Open Hardware: Unfinished Artefacts and Architectures in the Hackerspaces (specially the section titled 'Shared machine shops compared to hackerspaces').
 
