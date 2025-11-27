@@ -1933,3 +1933,13 @@ LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
 END:VCALENDAR
+BEGIN:VEVENT
+DTSTAMP:20251127T014942Z
+UID:843e558a-8ad9-48aa-b5bb-dc32011e427b
+DTSTART;TZID="America/New_York":20251129T180000
+DTEND;TZID="America/New_York":20251129T220000
+SUMMARY:Blood On The Clocktower
+URL:https://foulab.org
+DESCRIPTION:Blood On The Clocktower
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
