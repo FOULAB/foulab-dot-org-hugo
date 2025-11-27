@@ -122,6 +122,14 @@ and see what people have been up to!
 
 <br/>
 
+### Blood On The Clocktower - Saturday November 29th @ 18:00 - 22:00
+
+We're playing a table top social deduction game.
+"It's like Mafia if it were good." ~ @cat
+*Hosted by @ned*
+
+<br/>
+
 ...
 
 All of the events in November are free and open to the public, though
