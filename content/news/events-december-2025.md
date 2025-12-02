@@ -55,7 +55,7 @@ These nights are hosted each month on the third Wednesday of the month.
 This will be our third meeting to discuss the SPVM's plans to introduce
 AI surveillance technology.
 
-*Hosted by mOOooo*
+*Hosted by m00ooo*
 
 <br/>
 
