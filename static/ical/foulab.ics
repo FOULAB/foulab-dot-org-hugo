@@ -1943,4 +1943,70 @@ DESCRIPTION:Blood On The Clocktower
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20251202T031131Z
+UID:42998035-50d7-4380-b2aa-44e881467ea4
+DTSTART;TZID="America/New_York":20251202T183000
+DTEND;TZID="America/New_York":20251202T230000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20251202T031131Z
+UID:cbbd6b54-b4d7-44eb-8144-401faf28d408
+DTSTART;TZID="America/New_York":20251203T190000
+DTEND;TZID="America/New_York":20251203T220000
+SUMMARY:Mesh Night
+URL:https://foulab.org
+DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20251202T031131Z
+UID:d2d96139-f36a-414f-8349-b306a425e58c
+DTSTART;TZID="America/New_York":20251217T190000
+DTEND;TZID="America/New_York":20251217T220000
+SUMMARY:Home Assistant Evening
+URL:https://foulab.org
+DESCRIPTION:Home Assistant Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20251202T031131Z
+UID:0422c5b5-4ed6-4c70-b8a9-d9d350b4bb25
+DTSTART;TZID="America/New_York":20251218T190000
+DTEND;TZID="America/New_York":20251218T223000
+SUMMARY:Third SPVM Surveillance Discussion
+URL:https://foulab.org
+DESCRIPTION:Third SPVM Surveillance Discussion
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20251202T031131Z
+UID:e6eef193-7140-4101-ab49-2275cb4145ec
+DTSTART;TZID="America/New_York":20251223T200000
+DTEND;TZID="America/New_York":20251223T223000
+SUMMARY:Trivia Night
+URL:https://foulab.org
+DESCRIPTION:Trivia Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20251202T031131Z
+UID:a1e87b2e-cb87-4468-a2d9-0a4d869027e6
+DTSTART;TZID="America/New_York":20251231T183000
+DTEND;TZID="America/New_York":20251231T230000
+SUMMARY:New Year's Eve Chill Night
+URL:https://foulab.org
+DESCRIPTION:New Year's Eve Chill Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
