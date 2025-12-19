@@ -83,7 +83,7 @@ always appreciated.
 As usual, Tuesdays and Thursdays are Open Nights. These are a great
 time to visit the space for the first time. Sometimes events occur
 on these nights but we are still open for socializing and other
-activities.
+activities. **NOTE we will be closed Christmas Day Thursday December 25.**
 
 Mondays are our Workshop Nights. Come make things or help improve
 our workshop area.
