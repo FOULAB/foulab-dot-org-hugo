@@ -2010,4 +2010,70 @@ DESCRIPTION:New Year's Eve Chill Night
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20260102T180848Z
+UID:51297456-fc2c-4286-8016-edb487413925
+DTSTART;TZID="America/New_York":20260106T183000
+DTEND;TZID="America/New_York":20260106T230000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260102T180848Z
+UID:9f238de8-d646-425a-b48a-c0e350a4f1d3
+DTSTART;TZID="America/New_York":20260107T190000
+DTEND;TZID="America/New_York":20260107T220000
+SUMMARY:Mesh Night
+URL:https://foulab.org
+DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260102T180848Z
+UID:dbb156df-fc76-4a1d-a459-48fe7a28e6e8
+DTSTART;TZID="America/New_York":20260120T200000
+DTEND;TZID="America/New_York":20260120T213000
+SUMMARY:Foulab Monthly Meeting (2026 Election Edition)
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting (2026 Election Edition)
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260102T180848Z
+UID:2a0d4665-2b4a-4f09-b0a1-652ef04ecb20
+DTSTART;TZID="America/New_York":20260121T190000
+DTEND;TZID="America/New_York":20260121T220000
+SUMMARY:Home Assistant Evening
+URL:https://foulab.org
+DESCRIPTION:Home Assistant Evening
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260102T180848Z
+UID:75e26d19-7645-43df-838b-a167df18571b
+DTSTART;TZID="America/New_York":20260122T200000
+DTEND;TZID="America/New_York":20260122T220000
+SUMMARY:Intro to Cryptocurrency
+URL:https://foulab.org
+DESCRIPTION:Intro to Cryptocurrency
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260102T180848Z
+UID:f212ac95-e6df-49de-a107-15e4ad0ca456
+DTSTART;TZID="America/New_York":20260128T183000
+DTEND;TZID="America/New_York":20260128T230000
+SUMMARY:Fediverse Night
+URL:https://foulab.org
+DESCRIPTION:Fediverse Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
