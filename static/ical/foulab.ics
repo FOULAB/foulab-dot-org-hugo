@@ -2076,4 +2076,103 @@ DESCRIPTION:Fediverse Night
 LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
 END:VEVENT
 
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:c353233c-ebe0-4a49-9377-8468a6616d5d
+DTSTART;TZID="America/New_York":20260203T183000
+DTEND;TZID="America/New_York":20260203T230000
+SUMMARY:No Net Night
+URL:https://foulab.org
+DESCRIPTION:No Net Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:4b942e1f-6f22-4c9b-b91f-b2b8e2a8f238
+DTSTART;TZID="America/New_York":20260204T190000
+DTEND;TZID="America/New_York":20260204T220000
+SUMMARY:Mesh Night
+URL:https://foulab.org
+DESCRIPTION:Mesh Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:618b90a6-3354-452f-958e-c741614ef23b
+DTSTART;TZID="America/New_York":20260215T160000
+DTEND;TZID="America/New_York":20260215T190000
+SUMMARY:Killed by Dice Presents: Trollbabe
+URL:https://foulab.org
+DESCRIPTION:Killed by Dice Presents: Trollbabe
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:e5f0b633-908c-4b40-8c7f-6aa092eece2e
+DTSTART;TZID="America/New_York":20260217T200000
+DTEND;TZID="America/New_York":20260217T213000
+SUMMARY:Foulab Monthly Meeting
+URL:https://foulab.org
+DESCRIPTION:Foulab Monthly Meeting
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:ddf478a1-3c14-4521-8499-6353882ac45b
+DTSTART;TZID="America/New_York":20260219T200000
+DTEND;TZID="America/New_York":20260219T220000
+SUMMARY:Introduction to Rust Programming
+URL:https://foulab.org
+DESCRIPTION:Introduction to Rust Programming
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:b7ec5eb1-0b6e-47ff-9581-bb73d99e3083
+DTSTART;TZID="America/New_York":20260222T160000
+DTEND;TZID="America/New_York":20260222T190000
+SUMMARY:Faircamp Workshop
+URL:https://foulab.org
+DESCRIPTION:Faircamp Workshop
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:4631dfcd-df05-47a2-91eb-cee50d7b7930
+DTSTART;TZID="America/New_York":20260224T200000
+DTEND;TZID="America/New_York":20260224T220000
+SUMMARY:Fourth SPVM Surveillance Discussion
+URL:https://foulab.org
+DESCRIPTION:Fourth SPVM Surveillance Discussion
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:64316234-5b8f-41f5-9218-536ab606a387
+DTSTART;TZID="America/New_York":20260225T190000
+DTEND;TZID="America/New_York":20260225T220000
+SUMMARY:Fediverse Night
+URL:https://foulab.org
+DESCRIPTION:Fediverse Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTAMP:20260131T160505Z
+UID:92a96531-2261-4666-a825-bf3b0dd9b975
+DTSTART;TZID="America/New_York":20260227T200000
+DTEND;TZID="America/New_York":20260227T230000
+SUMMARY:Noise Hacking Night
+URL:https://foulab.org
+DESCRIPTION:Noise Hacking Night
+LOCATION:Foulab\, 999 Rue du Collège\, Montréal\, QC H4C 2S2\, Canada
+END:VEVENT
+
 END:VCALENDAR
